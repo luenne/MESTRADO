@@ -1,0 +1,28 @@
+1) RA (J2000)
+2) DEC (J2000)
+3) u
+4) g
+5) r
+6) i
+7) z
+8) zspec
+9) zspec-err
+10) velocity (km/s)
+11) velocity-err (km/s)
+12) radius (radial offset in degrees)
+13) radius_Mpc (radial offset in Mpc)
+14) velocity offset (km/s)
+15) iflag (0 if a member; 1 if interloper)
+16) kcorr_u 
+17) kcorr_g 
+18) kcorr_r 
+19) kcorr_i 
+20) kcorr_z 
+21) M_u
+22) M_g
+23) M_r
+24) M_i
+25) M_z
+26) (u-g)_0
+27) (u-r)_0
+28) (r-i)_0
