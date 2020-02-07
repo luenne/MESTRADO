@@ -19,11 +19,55 @@ library(Hotelling)
     return(det(m))/sqrt(sum(v1*v1))
 }
 
+# função omega
+omegaV <- function(a_point, b_point, center, R200, M200) {
+	e = 1 - (b/a)
 
-cluster = c('01238')
+	G = 4.30e-9
+
+	a = dist_2_points(a_point, center)
+	b = dist_2_points(b_point, center)
+
+	velocity = sqrt((1/R200^4) * G * M200 * a * (1 - e^2))
+
+	return(velocity/(R200*3.08e19))
+}
+
+cluster = c('00053', '00086', '00339', '00719', '00996', 
+'01052', '01189', '01238', '01264', '01347', '01478', 
+'01831', '01836', '01877', '01933', '02035', '02104', 
+'02137', '02182', '02186', '02249', '02298', '02301', 
+'02433', '02440', '02447', '02469', '02490', '02752', 
+'02759', '02789', '02827', '02899', '02907', '03031', 
+'03112', '03176', '03229', '03459', '03565', '03631', 
+'03691', '03742', '03898', '03907', '03915', '03975', 
+'04023', '04048', '04100', '04376', '04404', '04405', 
+'04409', '04458', '04470', '04479', '04537', '04641', 
+'04672', '04681', '04703', '04710', '05039', '05206', 
+'05325', '05359', '05447', '05535', '05717', '05780', 
+'05859', '05908', '06070', '06173', '06175', '06184', 
+'06207', '06233', '06256', '06261', '06264', '06286', 
+'06392', '06447', '06475', '06506', '06508', '06547', 
+'06723', '06758', '06841', '06861', '06924', '07204', 
+'07217', '07395', '07435', '07520', '07584', '07703', 
+'07775', '07815', '07837', '07975', '08022', '08049', 
+'08173', '08219', '08291', '08338', '08710', '08720', 
+'08721', '08738', '08742', '08975', '09061', '09075', 
+'09132', '09144', '09148', '09153', '09157', '09162', 
+'09176', '09177', '10001', '10004', '10006', '10008', 
+'10009', '10010', '10013', '10014', '10015', '10016', 
+'10017', '10018', '10019', '10020', '10021', '10022', 
+'10023', '10024', '10025', '10026', '10027', '10028', 
+'10029', '10030', '10031', '10032', '10033', '10034', 
+'10035', '10036', '10037', '10038', '10039', '10040', 
+'10041', '10042', '10043', '10044', '10045', '10046', 
+'10047', '10048', '10049', '10050', '10051', '10052', 
+'10053', '10054', '10055', '10056', '10058', '10059', 
+'10060', '10062', '10063', '10064')
+
 
 myInputC = read.table("info.sort")
-inputC = data.frame(cl = myInputC$V1, sigma = myInputC$V17, R200 = myInputC$V27)
+inputC = data.frame(cl = myInputC$V1, sigma = myInputC$V17, R200 = myInputC$V27, M200 = myInputC$V30)
 
 for(cl in 1:length(cluster)) {
 	dir = paste("clusters_nosocs/cluster.gals.sel.shiftgap.iter.", cluster[cl], sep="")
@@ -31,7 +75,7 @@ for(cl in 1:length(cluster)) {
 	# myInput = read.table("sem_rotacao/fort.8")
 	inputT = data.frame(ra = myInput$V1, dec = myInput$V2, zspec = myInput$V8, Vel = myInput$V10,flag = myInput$V15, r = myInput$V5)
 
-	cluster_input = inputC[which(inputC$cl == as.integer(cluster[cl])),names(inputC) %in% c("sigma","R200")]
+	cluster_input = inputC[which(inputC$cl == as.integer(cluster[cl])),names(inputC) %in% c("sigma","R200","M200")]
 
 	input <- inputT[which(inputT$flag == 0),names(inputT) %in% c("ra","dec","zspec","Vel","flag", "r")]
 	if(nrow(input) <= 20)
@@ -332,11 +376,16 @@ for(cl in 1:length(cluster)) {
 			write.table(subR, file="subr.txt", sep=" ")
 			write.table(deltaV, file="deltaV.txt", sep=" ")
 
+			velocityMax = omegaV(a_point, b_point, center_elip ,cluster_input$R200, cluster_input$M200 * 1e+14)
+
 			jpeg('PerfilDeVelocidadeAngular.jpg')   # cria imagem para gráfico
 			plot(raio,abs(w), type="l", xlab="Raio (Mpc)", ylab=expression(paste(omega~"(R)", " (rad/s)")),col="darkblue")
 			abline(v = cluster_input$R200,lty=5, lwd=2, col="green")
+
+			abline(h = velocityMax, lty=3, lwd=2, col="red")
+
 			AF1 = approxfun(raio,abs(w))
-			points(cluster_input$R200, AF1(cluster_input$R200), pch=20, col="red")  
+			points(cluster_input$R200, AF1(cluster_input$R200), pch=20, col="black")  
 			legend(cluster_input$R200, AF1(cluster_input$R200), signif(AF1(cluster_input$R200), digits = 6), box.col = NA, bg = NA, adj = 0.2)
 
 			title(main = file, sub = "",
