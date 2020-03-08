@@ -1,0 +1,26 @@
+1) icls (INDEX)
+2) RA
+3) DEC
+4) Zspec (redshift do grupo/cluster)
+5) Veli
+6) Velif
+7) Nspec (Number of galaxies within Rmax and +- 4000 km/s)
+8) Nmember (Number of member galaxies from Nspec)
+9) Vel_scale (velocity dispersion)
+10) Lower limit of Vel_scale
+11) Upper limit of Vel_scale
+12) R500 (Mpc)
+13) Lower limit of R500
+14) Upper limit of R500
+15) M500 (10^14 M_sun)
+16) Lower limit of M500
+17) Upper limit of M500
+18) R200 (Mpc)
+19) Lower limit of R200
+20) Upper limit of R200
+21) M200 (10^14 M_sun)
+22) Lower limit of M200
+23) Upper limit of M200
+24) zspec-all (new redshift determination considering all members - not used)
+25) zspec-all-err (error in zspec-all)
+26) Rap (Maximum radius => of the most distant galaxy considered as a member)

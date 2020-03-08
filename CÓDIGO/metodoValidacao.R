@@ -209,7 +209,7 @@ for(ID in 1:max(inputT$ID)){
 		hotelling = hotelling.test(a1,a2)
 		print(hotelling$pval)
 
-		if(cramer$p.value < 0.05 || hotelling$pval < 0.05)
+		if((!is.na(cramer$p.value) && cramer$p.value < 0.05) || (!is.na(hotelling$pval) && hotelling$pval < 0.05))
 			rotacao = TRUE
 	}
 	# Todos os pontos acima do eixo principal
@@ -228,7 +228,7 @@ for(ID in 1:max(inputT$ID)){
 		hotelling = hotelling.test(a1,a2)
 		print(hotelling$pval)
 		
-		if(cramer$p.value < 0.05 || hotelling$pval < 0.05)
+		if((!is.na(cramer$p.value) && cramer$p.value < 0.05) || (!is.na(hotelling$pval) && hotelling$pval < 0.05))
 			rotacao = TRUE
 	}
 
@@ -248,7 +248,7 @@ for(ID in 1:max(inputT$ID)){
 		hotelling = hotelling.test(a1,a2)
 		print(hotelling$pval)
 
-		if(cramer$p.value < 0.05 || hotelling$pval < 0.05)
+		if((!is.na(cramer$p.value) && cramer$p.value < 0.05) || (!is.na(hotelling$pval) && hotelling$pval < 0.05))
 			rotacao = TRUE
 	}
 

@@ -1,0 +1,15 @@
+1) RA   -
+2) DEC  -
+3) u
+4) g
+5) r    -
+6) i
+7) z    
+8) zspec  -
+9) zerrx
+10) Vel (km/s) [velocity => c*zspec]   -
+11) Vel-err (km/s)
+12) radp (radial offset in degrees)
+13) radmpc (radial offset in Mpc)
+14) Velocity offset (km/s)
+15) FLAG (0 if member; 1 if interloper)  -

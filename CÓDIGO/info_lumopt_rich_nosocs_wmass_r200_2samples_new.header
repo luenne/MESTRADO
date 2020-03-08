@@ -1,0 +1,35 @@
+1) cluster index
+2) RA (J2000)
+3) DEC (J2000)
+4) z_spec
+5) Ngals (richness)
+6) Ngals-err
+7) Lopt (10^12 L_solar)
+8) Lopt-err (10^12 L_solar)
+9) contrast
+10) rmax (NAO LEMBRO O QUE SIGNIFICA...)
+11) Vel_lo (km/s)
+12) Vel_hi (km/s)
+13) Ngals_wrmmax
+14) Nmemb_wrmmax
+15) Central (redshift) Velocity (km/s)
+16) Location estimate for velocity (km/s)
+17) SIGMA_p (km/s)
+18) Sigma_p lower limit
+19) Sigma_p upper limit
+20) Nmemb_wr200
+21) R500 (Mpc)
+22) R500 lower limit
+23) R500 upper limit
+24) M500 (10^14 M_solar)
+25) M500 lower limit
+26) M500 upper limit
+27) R200 (Mpc)
+28) R200 lower limit
+29) R200 upper limit
+30) M200 (10^14 M_solar)
+31) M200 lower limit
+32) M200 upper limit
+33) R_PV (projected virial radius) (Mpc)
+34) znew (alternative redshift / not used)
+35) znew-err
