@@ -1,0 +1,34 @@
+\babel@toc {brazil}{}
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {chapter}{\chapternumberline {2}Aglomerado de Gal\IeC {\'a}xias}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Distribui\IeC {\c c}\IeC {\~a}o de Velocidades ao longo do Aglomerado}{4}{section.2.1}
+\contentsline {chapter}{\chapternumberline {3}Rota\IeC {\c c}\IeC {\~a}o de Aglomerados}{6}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}Ferramentas Estat\IeC {\'\i }sticas Utilizadas}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Teste de Hip\IeC {\'o}tese}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Teste de Normalidade}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}Testes de duas amostras}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Testes utilizados}{11}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Teste de Cramer-von Mises}{11}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Teste de Hotelling}{12}{subsection.4.4.2}
+\contentsline {chapter}{\chapternumberline {5}Linguagem R}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pacotes}{14}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Pacote Cramer}{14}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Pacote Hotelling}{14}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Pacote Ellipse}{15}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Pacote Astro}{15}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Pacote cosmoFns}{15}{subsection.5.1.5}
+\contentsline {chapter}{\chapternumberline {6}Dados e Metodologia}{16}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Cat\IeC {\'a}logo I: selec20}{16}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}Cat\IeC {\'a}logo II: NoSOCS}{16}{subsection.6.0.2}
+\contentsline {subsection}{\numberline {6.0.3}Cat\IeC {\'a}logo III}{17}{subsection.6.0.3}
+\contentsline {subsection}{\numberline {6.0.4}Nosso M\IeC {\'e}todo}{20}{subsection.6.0.4}
+\contentsline {subsection}{\numberline {6.0.5}M\IeC {\'e}todo de Hwang \& Lee - adaptado}{22}{subsection.6.0.5}
+\contentsline {chapter}{\chapternumberline {7}An\IeC {\'a}lise}{24}{chapter.7}
+\contentsline {subsection}{\numberline {7.0.1}Cat\IeC {\'a}logo I: selec20}{24}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.2}Cat\IeC {\'a}logo II: NoSOCS}{27}{subsection.7.0.2}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\contentsline {part}{Anexos}{30}{section*.5}
+\contentsline {appendix}{\chapternumberline {A}Resultados Cat\IeC {\'a}logo selec20}{31}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {B}Resultados Cat\IeC {\'a}logo NoSOCS}{35}{appendix.anexochapback.2}
+\vspace {\cftbeforepartskip }

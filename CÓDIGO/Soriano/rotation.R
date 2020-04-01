@@ -32,7 +32,7 @@ omegaV <- function(a_point, b_point, center, R200, M200) {
 	return(velocity/(R200*3.08e19))
 }
 
-myInputC = read.table("rotacao/fort.9")
+myInputC = read.table("nova_rotacao/fort.9")
 inputC = data.frame(ID = myInputC$V1, R200 = myInputC$V4, M200 = myInputC$V5)
 # inputC = data.frame(cl = myInputC$V1, sigma = myInputC$V17, R200 = myInputC$V4, M200 = myInputC$V5)
 
@@ -40,10 +40,12 @@ inputC = data.frame(ID = myInputC$V1, R200 = myInputC$V4, M200 = myInputC$V5)
 inputC$R200 = inputC$R200 * 0.001 
 
 # conversão 10^10 para 10^14
-inputC$M200 = inputC$M200 / 10^40 
+inputC$M200 = inputC$M200 / 10^4 
 
-myInput = read.table("rotacao/fort.8")
+myInput = read.table("nova_rotacao/fort.8")
+myInputVel = read.table("nova_rotacao/fort.7")
 inputT = data.frame(ID = myInput$V1, ra = myInput$V2, dec = myInput$V3, zspec = myInput$V4, flag = myInput$V5)
+inputV = data.frame(ID = myInputVel$V1, vel = myInputVel$V4, flag = myInputVel$V6)
 
 for(ID in 1:max(inputT$ID)){ 
 	# galáxias membro flag = 0
@@ -54,14 +56,13 @@ for(ID in 1:max(inputT$ID)){
 	#file = paste("Aglomerado_rotacao M",ID, sep="")
 	file = paste("Aglomerado_com_rotacao M",ID, sep="")
 
-	cluster_input = inputC[which(inputC$ID == ID),names(inputC) %in% c("sigma","R200","M200")]
-
+	# cluster_input = inputC[which(inputC$ID == ID),names(inputC) %in% c("sigma","R200","M200")]
+	cluster_input = inputC[which(inputC$ID == ID),names(inputC) %in% c("R200","M200")]
 	dir.create(file)
 	setwd(file)
 
 	# velocidade de cada galáxia (velocity => c*zspec)
-	velocity = input$zspec * 300000
-	input['Vel'] = velocity
+	input['Vel'] = subset(inputV[c("vel")], inputV$ID == ID & inputV$flag == 0)
 
 	# Ordenar a partir da velocidade
 	input = input[order(input$Vel),]
@@ -70,7 +71,7 @@ for(ID in 1:max(inputT$ID)){
 
 	########### ANÁLISE DE GAPS ###########
 
-	jpeg('distribuição de velocidades.jpg')
+	jpeg(paste('dist',ID,'.jpg',sep=""))
 	h = hist(input$Vel, main = "Distribuição de Velocidades", 
 		     xlim = c(min(input$Vel),max(input$Vel)), breaks = 30)
 	plot(h$mids, h$counts, type="s",
@@ -113,7 +114,7 @@ for(ID in 1:max(inputT$ID)){
 
 	# gap não encontrado, calcula mediana
 	if(length(gap_positions) == 0){
-		medVel = input$Vel[which(input$Vel >= median(input$Vel))]
+		medVel = which(input$Vel >= median(input$Vel))
 		gap_positions = medVel[1]
 		print(paste("MEDIANA ", ID, " = ", medVel[1]))
 	}
@@ -170,14 +171,14 @@ for(ID in 1:max(inputT$ID)){
 	input['Vx'] = x
 	input['Vy'] = y
 
-	jpeg('Eixo Principal.jpg') # cria arquivo de imagem
+	jpeg(paste('eixo',ID,'.jpg',sep="")) # cria arquivo de imagem
 
 	eli = ellipse(cor(x,y),scale=c(sd(x),sd(y)),centre=c(mean(x),mean(y)),level=0.95, npoints=round(length(x)*0.95))
 	aplot(eli[,1],eli[,2],type="l",asp=1,col='darkorchid1')
 
 	# Esboça os valores de x e y (esquerda e direita do gap)
 	points(x,y, pch=ifelse(input$Flag == -1, "-", "+"),
-		  col=ifelse(input$Flag == -1, 'firebrick1', 'chartreuse2'))
+		  col=ifelse(input$Flag == -1, 'red', 'blue'), cex = 1.5)
 
 	# Calcula o centro da elipse
 	center_elip = c(mean(eli[,1]), mean(eli[,2]))
@@ -345,14 +346,14 @@ for(ID in 1:max(inputT$ID)){
 		velDist['dist'] = distance
 
 		subR = subset(velDist, velDist$dist <= 0.5)
-			posBCGV = which.min(subR$r)
+		posBCGV = which.min(subR$r)
 		
 		write.table(subR, file="subr.txt", sep=" ")
 		write.table(deltaV, file="deltaV.txt", sep=" ")
 
 		velocityMax = omegaV(a_point, b_point, center_elip ,cluster_input$R200, cluster_input$M200 * 1e+14)
 
-		jpeg('PerfilDeVelocidadeAngular.jpg')   # cria imagem para gráfico
+		jpeg(paste('perfil',ID,'.jpg',sep=""))   # cria imagem para gráfico
 		plot(raio,abs(w), type="l", xlab="Raio (Mpc)", ylab=expression(paste(omega~"(R)", " (rad/s)")),col="darkblue")
 		abline(v = cluster_input$R200,lty=5, lwd=2, col="green")
 
@@ -366,19 +367,19 @@ for(ID in 1:max(inputT$ID)){
 			cex.main = 2,   font.main= 1, col.main= "darkorchid4")
 		dev.off() # fecha o arquivo de perfil de velocidade angular
 
-		inputRotate = data.frame(distancia = velDist$dist, Vel = input$Vel)
+		# inputRotate = data.frame(distancia = velDist$dist, Vel = input$Vel)
 
-		inputRotate[,2] = inputRotate[,2] * 3.2408e-20 	# converte de km/s para mpc/s
-		inputRotate[,1] = inputRotate[,1] * 0.001	    # converte de kpc para mpc
+		# inputRotate[,2] = inputRotate[,2] * 3.2408e-20 	# converte de km/s para mpc/s
+		# inputRotate[,1] = inputRotate[,1] * 0.001	    # converte de kpc para mpc
 
-		inputRotate = inputRotate[order(inputRotate[1]),]   # ordena a partir da distância
+		# inputRotate = inputRotate[order(inputRotate[1]),]   # ordena a partir da distância
 		
-		jpeg('CurvaDeRotacao.jpg')   # cria imagem para gráfico
-		plot(inputRotate$distancia,inputRotate$Vel, type="l", xlab="Distância (Mpc)", ylab="Velocidade (Mpc/s)",col="darkblue")
+		# jpeg('CurvaDeRotacao.jpg')   # cria imagem para gráfico
+		# plot(inputRotate$distancia,inputRotate$Vel, type="l", xlab="Distância (Mpc)", ylab="Velocidade (Mpc/s)",col="darkblue")
 
-		title(main = file, sub = "",
-			cex.main = 2,   font.main= 1, col.main= "darkorchid4")
-		dev.off() # fecha o arquivo de perfil de velocidade angular
+		# title(main = file, sub = "",
+		# 	cex.main = 2,   font.main= 1, col.main= "darkorchid4")
+		# dev.off() # fecha o arquivo de perfil de velocidade angular
 	}
 	if(rotacao == FALSE)
 		print(paste(file,"sem rotação"))

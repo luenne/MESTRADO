@@ -63,7 +63,7 @@ for(cl in 1:max(inputT$ID)) {
 
 		########### ANÁLISE DE GAPS ###########
 
-		jpeg('distribuição de velocidades.jpg')
+		jpeg(paste('dist',cl,'.jpg', sep=""))
 		h = hist(input$Vel, main = "Distribuição de Velocidades", 
 			     xlim = c(min(input$Vel),max(input$Vel)), breaks = 30)
 		plot(h$mids, h$counts, type="s",
@@ -163,14 +163,14 @@ for(cl in 1:max(inputT$ID)) {
 		input['Vx'] = x
 		input['Vy'] = y
 
-		jpeg('Eixo Principal.jpg') # cria arquivo de imagem
+		jpeg(paste('eixo',cl,'.jpg', sep="")) # cria arquivo de imagem
 
 		eli = ellipse(cor(x,y),scale=c(sd(x),sd(y)),centre=c(mean(x),mean(y)),level=0.95, npoints=round(length(x)*0.95))
 		aplot(eli[,1],eli[,2],type="l",asp=1,col='darkorchid1')
 
 		# Esboça os valores de x e y (esquerda e direita do gap)
 		points(x,y, pch=ifelse(input$Flag == -1, "-", "+"),
-			  col=ifelse(input$Flag == -1, 'firebrick1', 'green'), cex = 1.5)
+			  col=ifelse(input$Flag == -1, 'red', 'blue'), cex = 1.5)
 
 		# Calcula o centro da elipse
 		center_elip = c(mean(eli[,1]), mean(eli[,2]))
@@ -345,7 +345,7 @@ for(cl in 1:max(inputT$ID)) {
 
 			velocityMax = omegaV(a_point, b_point, center_elip ,cluster_input$R200, cluster_input$M200 * 1e+14)
 
-			jpeg('PerfilDeVelocidadeAngular.jpg')   # cria imagem para gráfico
+			jpeg(paste('perfil',cl,'.jpg', sep=""))   # cria imagem para gráfico
 			plot(raio,abs(w), type="l", xlab="Raio (Mpc)", ylab=expression(paste(omega~"(R)", " (rad/s)")),col="darkblue")
 			abline(v = cluster_input$R200,lty=5, lwd=2, col="green")
 

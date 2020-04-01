@@ -1,0 +1,7 @@
+velocidades em km/s
+H0 em km/s/kpc
+posicões em kpc
+da;i um aglomerado a 443500.098 kpc estará a 443.50098 kpc
+nao
+443.50098 Mpc
+M em 10^10 MO

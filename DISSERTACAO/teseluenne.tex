@@ -1,0 +1,139 @@
+\documentclass[a4paper]{report}
+
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage{hyphenat}
+\usepackage{supertabular}
+\usepackage{tabularx}
+\usepackage{rotate}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{calligra}
+%\title{Universidade Estadual de Santa Cruz - DCB/CDET}
+%\author{Cl\'audio Soriano de Souza Brand\~ao}
+\begin{document}
+
+
+
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[scale=0.8]{./logouesc.eps}
+%\end{figure}
+
+
+%\maketitle
+\pretolerance=1000
+\large{\bf{Universidade Estadual de Santa Cruz - DCET}} \par \par \par
+\large{\bf{Curso: Mestrado de Luenne}} \par \par \par
+\large{\bf{Se\c c\~ao sobre Esferas de NFW}} \par \par
+\large{\bf{Colaborador: Cl\'audio Soriano de Souza Brand\~ao}}
+
+
+\large{\bf Amostras de Aglomerados Simulados}
+
+\chapter{Gera\c c\~ao de Aglomerados Simulados}
+
+Em conformidade com os objetivos propostos nesta Disserta\c c\~ao, foi gerada uma amostra de aglomerados simulados utilizando a t\'ecnica MonteCarlo. Luenne, justifique aqui o por qu\^e de voc\^e precisar de uma amostra com aglomerados simulados.
+
+O modelo adotado segue o perfil de densidades $\rho(r)$ de um esfer\'oide de Navarro-Frenk-White, conforme estudos por simula\c c\~oes num\'ericas cosmol\'ogicas realizadas por Navarro, Frenk e White (\cite{NFW1997}). A partir dos resultados de simula\c c\~oes cosmol\'ogicas de N-corpos autogravitantes, sugere-se que o melhor ajuste universal do perfil radial de densidades que representam a distribui\c c\~ao de mat\'eria de um aglomerado \'e dado por
+\begin{equation}
+\rho(r)=\rho_{crit}\frac{\delta_c}{(r/r_s)(1 + r/r_s)^2},
+\label{nfw1}
+\end{equation}
+onde $\rho(r)$ \'e a densidade de mat\'eria escura a uma dist\^ancia $r$ do centro do esfer\'oide, $\rho_{crit}$ \'e a densidade cr\'itica de fundo do Universo no momento da forma\c c\~ao do halo, $r_s$ \'e um raio caracter\'istico da esfera, $\delta_c$ \'e uma sobredensidade caracter\'istica do halo. Nas simula\c c\~oes descritas por Navarro {\it et al.}, ap\'os a forma\c c\~ao e matura\c c\~ao dos halos, verifica-se que os halos est\~ao em estado de equil\'ibrio din\^amico seguindo o modelo da din\^amica de N-Corpos autogravitantes em acordo com o teorema do Virial. Por outro lado, devido ao fato de que no modelo de Navarro {\it et al.} $M(r) \to \infty$ para $r \to \infty$, os modelos de esfer\'oide adotados nesta Pesquisa s\~ao truncado em $R_{200}$, onde $R_{200}$ \'e a dist\^ancia da regi\~ao lim\'itrofe da esfera na qual a densidade $\rho(r)$ \'e 200 vezes maior do que a densidade cr\'itica do Universo $\rho_{crit}$. Tamb\'em s\~ao geradas gal\'axias adicionais al\'em de $R_{200}$ at\'e $2.5 R_{200}$, para simular objetos circunvizinhos a cada aglomerado de modo que ou estejam em processo de captura ou em estruturas filamentares observadas entre aglomerados.
+
+\par Cada amostra \'e gerada atrav\'es de um algoritmo composto por tr\^es la\c cos : (I) O mais externo, (II) o primeiro interno, (III) o segundo interno. As unidades de medida usadas no c\'odigo est\~ao em km/s para a velocidade, kpc para dist\^ancia, para a constante gravitacional, G = 43007.1, para constante de Hubble em $z=0$ \'e $H_0 = 0.069 \, {\rm km/s/kpc}$.
+\par Antes do primeiro la\c co, o c\'odigo precisa como um dado de entrada um n\'umero inteiro como semente aleat\'oria para iniciar o gerador de pseudo-n\'umeros aleat\'orios usado ao longo de sua plena execu\c c\~ao durante todo o c\'odigo. 
+\par O primeiro la\c co inicia-se com um dado solicitado como entrada um n\'umero inteiro correspondente ao n\'umero de membros da amostra. Cada membro \'e um aglomerado pertencente \`a amostra. Em seguida, atribui-se um \textit{redshift} $z$ pseudo-aleat\'orio no intervalo $0.03 \leq z \leq 0.13$ ao primeiro membro da amostra do aglomerado. Calcula-se depois o valor de $H(z)$, a constante de Hubble na \'epoca da virializa\c c\~ao do aglomerado, com os par\^ametros cosmol\'ogicos $\Omega_M = 0.3$ e $\Omega_{\Lambda}=0.7$, a equa\c c\~ao $H(z) = H_0*\sqrt{\Omega_M(1+z)^3 + \Omega_{\Lambda}}$.
+
+A massa de cada aglomerado $M_{200}$ \'e atribu\'ida no valor a partir de $10^{14} M_{\odot}$ at\'e $10^{15.5}M_{\odot}$. O valor do n\'umero de membros (gal\'axias) do modelo $N_{200}$ dentro do raio virial $R_{200}$ \'e calculado conforme a seguinte equa\c c\~ao obtida usando ajustes realizados em amostra de aglomerados\cite{andreon2012}
+\begin{equation}
+\log(N_{200}) = 0.47(\log(M_{200}) - 14.5) + 1.58,
+\label{andreon}	
+\end{equation}	
+A partir do qual se calcula $N_{200} = e^{\log(N_{200})}$. Em seguida, calcula-se o valor da velocidade virial $v_{200}$\cite{springel1999}
+\begin{equation}
+v_{200} = \sqrt[3]{10GH(z)M_{200}} \, .
+\label{velocidadevirial}
+\end{equation}	
+O valor de $R_{200}$ \'e dado por 
+\begin{equation} R_{200} = \frac{v_{200}}{10H(z)}.
+\label{rvirial}
+\end{equation}
+Estima-se o valor do par\^ametro de concentra\c c\~ao $c$ do esfer\'oide, conforme uma prescri\c c\~ao obtida a partir de dados de aglomerados com massas $10^{11} \leq M_{200} \leq 10^{14} M_{\odot}$\cite{Bullock}.  Bullok {\it et al.} analisam dados de aglomerados simulados no modelo ${\rm \Lambda}$CDM\cite{Bullock} a partir de simula\c c\~oes num\'ericas, enquanto Comerford e Natarajan analisam dados de aglomerados obtidos por observa\c c\~oes \cite{COMERFORD}. Os dados s\~ao compat\'iveis com o seguinte ajuste:
+\begin{equation}
+c = \frac{9.00}{(1+z)} \left(\frac{M_{200}}{1300}\right)^{(-0.13)} \, .	
+\label{cparameter}
+\end{equation}
+
+Um dos dados usados para a constru\c c\~ao dos aglomerados simulados \'e a escala caracter\'istica, $r_c$. Ele \'e calculado pela equa\c c\~ao que o define
+\begin{equation}
+r_c \equiv \frac{R_{200}}{c} \, .
+\label{rc}
+\end{equation}	
+
+A dispers\~ao de velocidades \'e dada por:
+\begin{equation}
+v_{disp} = \frac{GM_{200}}{R_{200}} \, .	
+\label{vdisp}
+\end{equation}
+	
+Em seguida, atribuem-se aleatoriamente os valores das coordenadas da ascen\c c\~ao reta e declina\c c\~ao do centr\'oide do modelo, em condi\c c\~oes de observa\c c\~ao, como dados simulados. 
+
+
+Ap\'os estes procedimentos, inicia-se o segundo la\c co (II) para atribuir pela t\'ecnica de MonteCarlo as posi\c c\~oes e velocidades das gal\'axias de um aglomerado da amostra. 
+
+As posi\c c\~oes s\~ao determinadas resolvendo numericamente pelo m\'etodo da bissec\c c\~ao a equa\c c\~ao $q_{al} = \frac{M(r)}{M_{200}}$, onde $q_{al}$ \'e um n\'umero aleat\'orio gerado pelo gerador de pseudo-n\'umeros aleat\'orios. $M(r)$ \'e dado por
+\begin{equation}
+M(r)= 4 \pi \rho_{crit} \delta_c r_c^3 \left[ \frac{r_c + r}{r_c} - \frac{r}{r_c+r}  \right] \, .
+\label{nfw2}
+\end{equation}
+
+Deste modo, $r$ \'e calculado  numericamente e, a partir dos \^angulos gerados aleatoriamente em coordenadas esf\'ericas $\theta$ e $\phi$, calculam-se as posi\c c\~es $x,y,z$ para a gal\'axia.
+
+
+Para atribuir os dados da velocidade de modelos sem rota\c c\~ao, s\~ao geradas apenas velocidades obedecendo a uma distribui\c c\~ao gaussiana de velocidades para cada dire\c c\~ao dos eixos coordenados-$xyz$ usando a dispers\~ao de velocidades $v_{disp}$. 
+
+Para modelos com rota\c c\~ao, calcula-se a velocidade de rota\c c\~ao a partir da velocidade circular de cada gal\'axia a partir da equa\c c\~ao 
+\begin{equation}
+v_{c} = \frac{G M(r)}{r},
+\label{vcirc}
+\end{equation}	
+e o modelo \'e posto para rotacionar em torno do eixo-$z$.
+
+Em cada modelo de aglomerado gerado, calcula-se a dist\^ancia do centr\'oide do objeto a um observador hipot\'etico posicionado em $D(z)$ ao longo do eixo-$x$, dada pelo $\it redshift \, z$ pela equa\c c\~ao: 
+\begin{equation}
+D(z) = \frac{c z}{H_0} \left(1-z\frac{(1+q_0)}{2}   \right), 	
+\label{distanciaaglomerado}
+\end{equation}
+onde $c$ \'e a velocidade da luz no v\'acuo.
+onde $q_0 = \Omega_{M}/2 - \Omega_{\Lambda}$ \'e o par\^ametro de desacelera\c c\~ao usado no modelo cosmol\'ogico ${\rm \Lambda CDM}$.
+
+Cada modelo de aglomerado simulado possui $N_{200}$ gal\'axias. As posi\c c\~oes cartesianas de cada gal\'axia s\~ao adicionadas ao centr\'oide localizado na origem do sistema cartesiano. Em seguida, s\~ao projetadas as suas posi\c c\~oes no plano-$yz$, interpretado como o planisf\'erio celeste. As coordenadas cartesianas s\~ao convertidas em ascen\c c\~ao reta e declina\c c\~ao. Adicionalmente, para cada gal\'axia do aglomerado, calculam-se a proje\c c\~ao do vetor velocidade na linha de visada do observador e \'e convertido em {\it redshift}, adicionado ao {\it redshift} do aglomerado. 
+
+Enfim, c\'alculos semelhantes s\~ao realizados para os objetos n\~ao pertencentes ao aglomerado. O segundo e terceiro la\c cos se finalizam e o primeiro \'e finalizado ap\'os todos os aglomerados forem gerados.
+
+
+\end{chapter}
+
+\begin{thebibliography}{99}
+
+\bibitem{andreon2012}  Andreon, S.; Berg\'e, J. {\it  Richness-mass relation self-calibration for galaxy clusters}, Astronomy \& Astrophysics, Volume 547, id.A117, 12 pp, 2012.		
+
+\bibitem{Bullock}  Bullock, J. S.; Kolatt, T. S.; Sigad, Y.; Somerville, R. S.; Kravtsov, A. V.; Klypin, A. A.; Primack, J. R.; Dekel, A., {\it  Profiles of dark haloes: evolution, scatter and environment}, Monthly Notices of the Royal Astronomical Society, Volume 321, Issue 3, pp. 559-575, 2001.
+
+\bibitem{COMERFORD} Comerford, J. M., Natarajan, J., {\it The observed concentration–mass relation for galaxy clusters}, Monthly Notices of the Royal Astronomical Society, 379, 190–200, 2007. 
+
+\bibitem{NFW1997}  Navarro, J. F.; Frenk, C. S.; White, S. D. M., {\it  A Universal Density Profile from Hierarchical Clustering}, The Astrophysical Journal, Volume 490, Issue 2, pp. 493-508, 1997.  
+	
+\bibitem{springel1999} Springel, V.; White, S. D. M., {\it Tidal tails in cold dark matter cosmologies }, Monthly Notices of the Royal Astronomical Society, Volume 307, Issue 1, pp. 162-178, 1999. 
+
+\end{thebibliography}		
+
+\end{document}
+
+
+

@@ -32,7 +32,7 @@ omegaV <- function(a_point, b_point, center, R200, M200) {
 	return(velocity/(R200*3.08e19))
 }
 
-myInputC = read.table("sem_rotacao/fort.9")
+myInputC = read.table("teste/fort.9")
 inputC = data.frame(ID = myInputC$V1, R200 = myInputC$V4, M200 = myInputC$V5)
 # inputC = data.frame(cl = myInputC$V1, sigma = myInputC$V17, R200 = myInputC$V4, M200 = myInputC$V5)
 
@@ -42,7 +42,7 @@ inputC$R200 = inputC$R200 * 0.001
 # conversão 10^10 para 10^14
 inputC$M200 = inputC$M200 / 10^40 
 
-myInput = read.table("sem_rotacao/fort.8")
+myInput = read.table("teste/fort.8")
 inputT = data.frame(ID = myInput$V1, ra = myInput$V2, dec = myInput$V3, zspec = myInput$V4, flag = myInput$V5)
 
 for(ID in 1:max(inputT$ID)){ 
@@ -70,7 +70,7 @@ for(ID in 1:max(inputT$ID)){
 
 	########### ANÁLISE DE GAPS ###########
 
-	jpeg('distribuição de velocidades.jpg')
+	jpeg(paste('dist',ID,'.jpg',sep=""))
 	h = hist(input$Vel, main = "Distribuição de Velocidades", 
 		     xlim = c(min(input$Vel),max(input$Vel)), breaks = 30)
 	plot(h$mids, h$counts, type="s",
@@ -113,7 +113,7 @@ for(ID in 1:max(inputT$ID)){
 
 	# gap não encontrado, calcula mediana
 	if(length(gap_positions) == 0){
-		medVel = input$Vel[which(input$Vel >= median(input$Vel))]
+		medVel = which(input$Vel >= median(input$Vel))
 		gap_positions = medVel[1]
 		print(paste("MEDIANA ", ID, " = ", medVel[1]))
 	}
@@ -170,7 +170,7 @@ for(ID in 1:max(inputT$ID)){
 	input['Vx'] = x
 	input['Vy'] = y
 
-	jpeg('Eixo Principal.jpg') # cria arquivo de imagem
+	jpeg(paste('eixo',ID,'.jpg',sep="")) # cria arquivo de imagem
 
 	eli = ellipse(cor(x,y),scale=c(sd(x),sd(y)),centre=c(mean(x),mean(y)),level=0.95, npoints=round(length(x)*0.95))
 	aplot(eli[,1],eli[,2],type="l",asp=1,col='darkorchid1')
@@ -352,7 +352,7 @@ for(ID in 1:max(inputT$ID)){
 
 		velocityMax = omegaV(a_point, b_point, center_elip ,cluster_input$R200, cluster_input$M200 * 1e+14)
 
-		jpeg('PerfilDeVelocidadeAngular.jpg')   # cria imagem para gráfico
+		jpeg(paste('perfil',ID,'.jpg',sep=""))   # cria imagem para gráfico
 		plot(raio,abs(w), type="l", xlab="Raio (Mpc)", ylab=expression(paste(omega~"(R)", " (rad/s)")),col="darkblue")
 		abline(v = cluster_input$R200,lty=5, lwd=2, col="green")
 
