@@ -1,0 +1,601 @@
+[1] 1
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -968.1381 -2097924   1.795196       102.8571
+[1] 2
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1076.219 -2401503   1.196797       68.57142
+[1] 3
+       vrot     chi2 min_theta0 min_theta0_deg
+19 761.1571 -1689908   1.346397       77.14284
+[1] 4
+       vrot      chi2 min_theta0 min_theta0_deg
+8 -462.1227 -714861.4   1.427997       81.81817
+[1] 5
+       vrot      chi2 min_theta0 min_theta0_deg
+9 -358.9545 -482159.6   1.285197       73.63635
+[1] 6
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1081.132 -2216046  0.2855993       16.36363
+[1] 7
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -977.9636 -2766816   2.141995       122.7273
+[1] 8
+       vrot      chi2 min_theta0 min_theta0_deg
+7 -565.2909 -741664.8   2.713194       155.4545
+[1] 9
+       vrot      chi2 min_theta0 min_theta0_deg
+9 -394.8391 -876732.8  0.6829549       39.13043
+[1] 10
+       vrot    chi2 min_theta0 min_theta0_deg
+4 -888.2522 -673250   1.775683       101.7391
+[1] 11
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -789.5696 -3131771  0.6829549       39.13043
+[1] 12
+       vrot      chi2 min_theta0 min_theta0_deg
+8 -493.5217 -18060709   3.005002       172.1739
+[1] 13
+       vrot     chi2 min_theta0 min_theta0_deg
+23 986.7174 -3748889   2.185456       125.2174
+[1] 14
+       vrot     chi2 min_theta0 min_theta0_deg
+6 -711.4458 -8373363   1.701696       97.49998
+[1] 15
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -900.5875 -524735.1   1.570796       89.99999
+[1] 16
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -995.1583 -23365140  0.6544985       37.49999
+[1] 17
+       vrot      chi2 min_theta0 min_theta0_deg
+2 -1089.729 -894690.9   2.617994            150
+[1] 18
+       vrot      chi2 min_theta0 min_theta0_deg
+22 801.6875 -390688.1   1.308997       74.99999
+[1] 19
+      vrot     chi2 min_theta0 min_theta0_deg
+22 722.248 -2367076   2.010619          115.2
+[1] 20
+      vrot      chi2 min_theta0 min_theta0_deg
+17 268.308 -19430511   2.261947          129.6
+[1] 21
+      vrot    chi2 min_theta0 min_theta0_deg
+24 903.824 -567623  0.7539822       43.19999
+[1] 22
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1002.724 -604698.2   2.261947          129.6
+[1] 23
+      vrot       chi2 min_theta0 min_theta0_deg
+5 -821.148 -109838052  0.6283185       35.99999
+[1] 24
+       vrot     chi2 min_theta0 min_theta0_deg
+26 998.1038 -3733122          0              0
+[1] 25
+       vrot     chi2 min_theta0 min_theta0_deg
+24 823.5115 -9027535   1.208305       69.23076
+[1] 26
+       vrot     chi2 min_theta0 min_theta0_deg
+8 -573.2269 -6161219    2.41661       138.4615
+[1] 27
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 28
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1016.174 -1593491  0.5817764       33.33333
+[1] 29
+       vrot     chi2 min_theta0 min_theta0_deg
+9 -511.7963 -3282615    2.21075       126.6666
+[1] 30
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -848.0481 -2017494   2.443461            140
+[1] 31
+       vrot      chi2 min_theta0 min_theta0_deg
+8 -595.8593 -969519.6  0.2327106       13.33333
+[1] 32
+       vrot     chi2 min_theta0 min_theta0_deg
+20 412.8963 -1331927   1.745329       99.99998
+[1] 33
+       vrot     chi2 min_theta0 min_theta0_deg
+25 761.1571 -2388435   1.009798       57.85713
+[1] 34
+       vrot      chi2 min_theta0 min_theta0_deg
+28 1004.339 -11390401   1.458597       83.57141
+[1] 35
+       vrot     chi2 min_theta0 min_theta0_deg
+6 -778.9964 -2828541   2.804993       160.7143
+[1] 36
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1022.179 -2686942  0.6731984       38.57142
+[1] 37
+       vrot     chi2 min_theta0 min_theta0_deg
+7 -714.7069 -3328447   1.191639       68.27585
+[1] 38
+       vrot     chi2 min_theta0 min_theta0_deg
+7 -714.7069 -4464272  0.1083308       6.206896
+[1] 39
+       vrot     chi2 min_theta0 min_theta0_deg
+27 850.6034 -1027983  0.8666462       49.65516
+[1] 40
+       vrot     chi2 min_theta0 min_theta0_deg
+29 1007.134 -1573445   1.733292       99.31033
+[1] 41
+       vrot     chi2 min_theta0 min_theta0_deg
+30 1009.743 -4432391  0.7330383       41.99999
+[1] 42
+       vrot     chi2 min_theta0 min_theta0_deg
+9 -579.0467 -2435472   2.513274            144
+[1] 43
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1032.987 -87634462          0              0
+[1] 44
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 45
+     vrot     chi2 min_theta0 min_theta0_deg
+1 -1184.3 -4626000   1.418784       81.29031
+[1] 46
+       vrot      chi2 min_theta0 min_theta0_deg
+5 -891.4355 -26801332   1.013417       58.06451
+[1] 47
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -891.4355 -1158972   1.824151       104.5161
+[1] 48
+     vrot      chi2 min_theta0 min_theta0_deg
+32 1085.4 -62418497   1.317442       75.48386
+[1] 49
+       vrot     chi2 min_theta0 min_theta0_deg
+7 -758.7313 -5828138   1.276272       73.12499
+[1] 50
+       vrot      chi2 min_theta0 min_theta0_deg
+31 943.5438 -11835067   1.178097       67.49999
+[1] 51
+       vrot     chi2 min_theta0 min_theta0_deg
+31 943.5438 -5090628  0.7853982       44.99999
+[1] 52
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -900.5875 -5193256   3.043418        174.375
+[1] 53
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -909.1848 -2893213   1.237597       70.90908
+[1] 54
+       vrot     chi2 min_theta0 min_theta0_deg
+31 879.0636 -1453260   1.047198       59.99999
+[1] 55
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1046.742 -3496659   1.047198       59.99999
+[1] 56
+       vrot     chi2 min_theta0 min_theta0_deg
+4 -984.0324 -8779776   2.125195       121.7647
+[1] 57
+       vrot      chi2 min_theta0 min_theta0_deg
+32 885.1324 -24295891   1.385997       79.41175
+[1] 58
+       vrot      chi2 min_theta0 min_theta0_deg
+7 -783.7647 -15458031  0.3695991       21.17647
+[1] 59
+       vrot     chi2 min_theta0 min_theta0_deg
+33 951.8882 -7272631  0.5543987        31.7647
+[1] 60
+       vrot      chi2 min_theta0 min_theta0_deg
+2 -1119.451 -12210640   1.346397       77.14284
+[1] 61
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1054.603 -7561487   1.077117       61.71428
+[1] 62
+     vrot      chi2 min_theta0 min_theta0_deg
+8 -730.36 -24286176   1.795196       102.8571
+[1] 63
+       vrot     chi2 min_theta0 min_theta0_deg
+36 1022.353 -4416125  0.6981317       39.99999
+[1] 64
+     vrot     chi2 min_theta0 min_theta0_deg
+37 1085.4 -5908314  0.8726646       49.99999
+[1] 65
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -932.1111 -2142796    1.48353       84.99999
+[1] 66
+        vrot     chi2 min_theta0 min_theta0_deg
+11 -570.8676 -6529650   1.358527       77.83782
+[1] 67
+       vrot      chi2 min_theta0 min_theta0_deg
+35 901.3703 -52935567   1.783066       102.1621
+[1] 68
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -12302741  0.8490791       48.64864
+[1] 69
+       vrot      chi2 min_theta0 min_theta0_deg
+29 533.3108 -17651812   2.462329       141.0811
+[1] 70
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 71
+        vrot      chi2 min_theta0 min_theta0_deg
+13 -467.5526 -19749445   1.984164       113.6842
+[1] 72
+       vrot     chi2 min_theta0 min_theta0_deg
+37 965.9421 -1761965   1.405449        80.5263
+[1] 73
+       vrot      chi2 min_theta0 min_theta0_deg
+5 -951.5103 -15733198  0.1611073       9.230768
+[1] 74
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -11196354   2.255502       129.2307
+[1] 75
+       vrot      chi2 min_theta0 min_theta0_deg
+39 1027.203 -12196322   2.577717       147.6923
+[1] 76
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1070.815 -3514230  0.2356194           13.5
+[1] 77
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 78
+     vrot      chi2 min_theta0 min_theta0_deg
+41 1085.4 -62302381   2.748894          157.5
+[1] 79
+       vrot     chi2 min_theta0 min_theta0_deg
+6 -907.5073 -3836764   1.302612       74.63413
+[1] 80
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -962.8659 -4050786   2.451975       140.4878
+[1] 81
+     vrot     chi2 min_theta0 min_theta0_deg
+42 1085.4 -9070376   1.838981       105.3658
+[1] 82
+      vrot      chi2 min_theta0 min_theta0_deg
+41 977.319 -34219278 0.07479983       4.285714
+[1] 83
+      vrot     chi2 min_theta0 min_theta0_deg
+2 -1130.26 -3625821  0.8975979       51.42856
+[1] 84
+      vrot     chi2 min_theta0 min_theta0_deg
+41 977.319 -3981242   2.543194       145.7143
+[1] 85
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1131.516 -2965517   1.315085       75.34882
+[1] 86
+     vrot     chi2 min_theta0 min_theta0_deg
+44 1085.4 -6615565    2.48405       142.3256
+[1] 87
+       vrot       chi2 min_theta0 min_theta0_deg
+5 -973.1651 -259045598  0.8036632        46.0465
+[1] 88
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 89
+        vrot      chi2 min_theta0 min_theta0_deg
+16 -410.5386 -12015581   2.284795       130.9091
+[1] 90
+       vrot      chi2 min_theta0 min_theta0_deg
+45 1034.962 -19049976   2.303835            132
+[1] 91
+       vrot     chi2 min_theta0 min_theta0_deg
+5 -982.5489 -3127578   1.047198       59.99999
+[1] 92
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -15366401    1.53589       87.99999
+[1] 93
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1134.959 -5533651  0.8878414       50.86956
+[1] 94
+       vrot     chi2 min_theta0 min_theta0_deg
+40 740.0109 -5736274   1.980569       113.4782
+[1] 95
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1134.959 -7986108  0.8878414       50.86956
+[1] 96
+       vrot     chi2 min_theta0 min_theta0_deg
+4 -1039.426 -9914275    3.07475       176.1702
+[1] 97
+      vrot      chi2 min_theta0 min_theta0_deg
+46 988.817 -33106779   1.804745       103.4042
+[1] 98
+       vrot       chi2 min_theta0 min_theta0_deg
+41 707.1167 -152418710 0.06544985       3.749999
+[1] 99
+       vrot      chi2 min_theta0 min_theta0_deg
+6 -947.8729 -14773072   2.356194            135
+[1] 100
+     vrot     chi2 min_theta0 min_theta0_deg
+49 1085.4 -6691039   1.963495          112.5
+[1] 101
+     vrot      chi2 min_theta0 min_theta0_deg
+50 1085.4 -53373157   1.666968       95.51019
+[1] 102
+        vrot      chi2 min_theta0 min_theta0_deg
+14 -582.1347 -31467316  0.6411414       36.73469
+[1] 103
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 104
+     vrot     chi2 min_theta0 min_theta0_deg
+36 404.49 -4662318   0.439823           25.2
+[1] 105
+     vrot      chi2 min_theta0 min_theta0_deg
+46 858.43 -36123390   2.261947          129.6
+[1] 106
+        vrot      chi2 min_theta0 min_theta0_deg
+11 -739.2608 -10530347  0.2463994       14.11764
+[1] 107
+       vrot      chi2 min_theta0 min_theta0_deg
+34 284.3294 -24077614   2.279195       130.5882
+[1] 108
+       vrot      chi2 min_theta0 min_theta0_deg
+45 736.2154 -20153759   2.779101       159.2307
+[1] 109
+       vrot      chi2 min_theta0 min_theta0_deg
+5 -1009.708 -25681907   1.872873       107.3077
+[1] 110
+       vrot       chi2 min_theta0 min_theta0_deg
+51 956.9264 -445222404   2.608115       149.4339
+[1] 111
+       vrot     chi2 min_theta0 min_theta0_deg
+45 699.9792 -4968805   1.244782       71.32074
+[1] 112
+       vrot       chi2 min_theta0 min_theta0_deg
+3 -1098.651 -136744622    1.77826       101.8868
+[1] 113
+       vrot      chi2 min_theta0 min_theta0_deg
+42 538.9907 -42586778  0.4654211       26.66666
+[1] 114
+       vrot     chi2 min_theta0 min_theta0_deg
+52 959.3056 -9661133   1.454441       83.33332
+[1] 115
+        vrot      chi2 min_theta0 min_theta0_deg
+15 -606.5582 -29123473   1.542236       88.36362
+[1] 116
+       vrot     chi2 min_theta0 min_theta0_deg
+2 -1143.033 -3096787   1.256637       71.99999
+[1] 117
+        vrot      chi2 min_theta0 min_theta0_deg
+11 -778.9964 -17828727   2.580594       147.8571
+[1] 118
+       vrot      chi2 min_theta0 min_theta0_deg
+50 801.6875 -19983588   1.178097       67.49999
+[1] 119
+       vrot     chi2 min_theta0 min_theta0_deg
+3 -1104.661 -6716480   1.929048       110.5263
+[1] 120
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -1064.842 -36164398   1.929048       110.5263
+[1] 121
+       vrot      chi2 min_theta0 min_theta0_deg
+8 -910.3707 -21753721   1.841623       105.5172
+[1] 122
+      vrot      chi2 min_theta0 min_theta0_deg
+55 928.869 -11420137   1.137473        65.1724
+[1] 123
+     vrot       chi2 min_theta0 min_theta0_deg
+1 -1184.3 -142834257   1.757162       100.6779
+[1] 124
+       vrot       chi2 min_theta0 min_theta0_deg
+5 -1030.422 -696474476   1.757162       100.6779
+[1] 125
+       vrot      chi2 min_theta0 min_theta0_deg
+10 -843.845 -22779812  0.4712389             27
+[1] 126
+       vrot       chi2 min_theta0 min_theta0_deg
+9 -881.6733 -103922507   2.879793            165
+[1] 127
+       vrot      chi2 min_theta0 min_theta0_deg
+16 -626.177 -13279127   1.133033       64.91802
+[1] 128
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -1072.675 -35486884   2.472073       141.6393
+[1] 129
+       vrot      chi2 min_theta0 min_theta0_deg
+56 829.1435 -49111725   1.722809       98.70966
+[1] 130
+        vrot      chi2 min_theta0 min_theta0_deg
+10 -854.8274 -10318585   1.520125       87.09676
+[1] 131
+       vrot      chi2 min_theta0 min_theta0_deg
+41 256.7794 -15732276   2.942126       168.5714
+[1] 132
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -18723582    1.29653        74.2857
+[1] 133
+        vrot      chi2 min_theta0 min_theta0_deg
+12 -794.1953 -11137477   1.472622       84.37499
+[1] 134
+[1] vrot chi2
+<0 linhas> (ou row.names de comprimento 0)
+[1] 135
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -80101730   1.594962        91.3846
+[1] 136
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -1079.545 -31872528   2.223281       127.3846
+[1] 137
+       vrot      chi2 min_theta0 min_theta0_deg
+59 810.2848 -12974931   3.093993       177.2727
+[1] 138
+       vrot      chi2 min_theta0 min_theta0_deg
+7 -977.9636 -10472071   1.761196       100.9091
+[1] 139
+       vrot      chi2 min_theta0 min_theta0_deg
+52 543.3821 -10467987   2.954035       169.2537
+[1] 140
+     vrot      chi2 min_theta0 min_theta0_deg
+68 1085.4 -42616869    1.68802        96.7164
+[1] 141
+       vrot      chi2 min_theta0 min_theta0_deg
+5 -1050.788 -94258666   2.032795       116.4706
+[1] 142
+        vrot      chi2 min_theta0 min_theta0_deg
+13 -789.5696 -44844790   1.001667       57.39129
+[1] 143
+       vrot     chi2 min_theta0 min_theta0_deg
+8 -954.0406 -4187929   2.640759       151.3043
+[1] 144
+       vrot      chi2 min_theta0 min_theta0_deg
+9 -924.9057 -70223765   0.448799       25.71428
+[1] 145
+       vrot      chi2 min_theta0 min_theta0_deg
+58 663.8843 -11038407   1.391277       79.71427
+[1] 146
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1120.365 -22561721   1.106195       63.38027
+[1] 147
+       vrot      chi2 min_theta0 min_theta0_deg
+62 765.7239 -10127037   2.610619       149.5774
+[1] 148
+       vrot      chi2 min_theta0 min_theta0_deg
+67 896.2583 -19002113  0.6544985       37.49999
+[1] 149
+       vrot       chi2 min_theta0 min_theta0_deg
+7 -997.7493 -167722296   1.204994       69.04108
+[1] 150
+       vrot      chi2 min_theta0 min_theta0_deg
+72 1023.216 -62661249   2.625166       150.4109
+[1] 151
+       vrot      chi2 min_theta0 min_theta0_deg
+58 563.9824 -18560210   1.188711        68.1081
+[1] 152
+       vrot      chi2 min_theta0 min_theta0_deg
+72 993.3851 -20546137    1.61325       92.43242
+[1] 153
+       vrot       chi2 min_theta0 min_theta0_deg
+7 -1002.724 -113604377   2.974041          170.4
+[1] 154
+       vrot      chi2 min_theta0 min_theta0_deg
+68 816.6197 -15707786   1.033419       59.21052
+[1] 155
+       vrot      chi2 min_theta0 min_theta0_deg
+69 846.4842 -11985505  0.4133675       23.68421
+[1] 156
+     vrot     chi2 min_theta0 min_theta0_deg
+78 1085.4 -6594223   1.305597       74.80518
+[1] 157
+       vrot      chi2 min_theta0 min_theta0_deg
+69 794.4128 -14015061   1.208305       69.23076
+[1] 158
+       vrot       chi2 min_theta0 min_theta0_deg
+6 -1038.806 -161038877   1.087474       62.30768
+[1] 159
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1126.839 -16160303   2.902991       166.3291
+[1] 160
+       vrot      chi2 min_theta0 min_theta0_deg
+78 1027.939 -54788315  0.5965049       34.17721
+[1] 161
+       vrot      chi2 min_theta0 min_theta0_deg
+6 -1042.444 -13605387  0.3926991           22.5
+[1] 162
+     vrot      chi2 min_theta0 min_theta0_deg
+82 1085.4 -29082660   1.822899       104.4444
+[1] 163
+     vrot      chi2 min_theta0 min_theta0_deg
+1 -1184.3 -77120348  0.6981317       39.99999
+[1] 164
+       vrot     chi2 min_theta0 min_theta0_deg
+4 -1101.262 -9714481   2.260414       129.5122
+[1] 165
+       vrot      chi2 min_theta0 min_theta0_deg
+74 811.9422 -21251483   2.422433       138.7952
+[1] 166
+       vrot        chi2 min_theta0 min_theta0_deg
+6 -1047.571 -1963046077   1.211216       69.39758
+[1] 167
+       vrot      chi2 min_theta0 min_theta0_deg
+79 923.2786 -26976946   1.196797       68.57142
+[1] 168
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -1104.193 -75071103  0.7391983       42.35293
+[1] 169
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1131.516 -38264598   1.095904       62.79069
+[1] 170
+        vrot      chi2 min_theta0 min_theta0_deg
+11 -920.3814 -30464053   1.242025       71.16278
+[1] 171
+       vrot      chi2 min_theta0 min_theta0_deg
+83 954.9575 -12037289   2.491608       142.7586
+[1] 172
+       vrot      chi2 min_theta0 min_theta0_deg
+87 1033.816 -13193985   2.034895       116.5909
+[1] 173
+       vrot       chi2 min_theta0 min_theta0_deg
+24 -591.083 -735350210  0.3212992       18.40909
+[1] 174
+       vrot       chi2 min_theta0 min_theta0_deg
+5 -1082.291 -117441839   2.894501       165.8427
+[1] 175
+       vrot      chi2 min_theta0 min_theta0_deg
+75 681.8978 -26889010  0.5585054       31.99999
+[1] 176
+       vrot      chi2 min_theta0 min_theta0_deg
+9 -984.7659 -19507599   2.692794       154.2857
+[1] 177
+       vrot      chi2 min_theta0 min_theta0_deg
+7 -1034.649 -97052131   1.760673       100.8791
+[1] 178
+       vrot      chi2 min_theta0 min_theta0_deg
+3 -1134.959 -27360166   2.595229       148.6956
+[1] 179
+        vrot       chi2 min_theta0 min_theta0_deg
+11 -940.2462 -223497846   1.756589       100.6451
+[1] 180
+       vrot      chi2 min_theta0 min_theta0_deg
+6 -1063.571 -42896653   2.005272       114.8936
+[1] 181
+        vrot      chi2 min_theta0 min_theta0_deg
+11 -942.8426 -26076509   2.907644       166.5957
+[1] 182
+       vrot       chi2 min_theta0 min_theta0_deg
+95 1061.508 -595622387   1.058221       60.63157
+[1] 183
+       vrot      chi2 min_theta0 min_theta0_deg
+4 -1113.372 -26708229   1.734421       99.37498
+[1] 184
+       vrot      chi2 min_theta0 min_theta0_deg
+9 -997.1082 -21792423  0.7125262       40.82474
+[1] 185
+       vrot       chi2 min_theta0 min_theta0_deg
+8 -1022.179 -453119866   0.480856       27.55102
+[1] 186
+        vrot      chi2 min_theta0 min_theta0_deg
+16 -836.8969 -44218125   1.987538       113.8775
+[1] 187
+        vrot      chi2 min_theta0 min_theta0_deg
+21 -725.7747 -68108774   1.142397       65.45453
+[1] 188
+      vrot      chi2 min_theta0 min_theta0_deg
+97 994.612 -43024937   1.445133       82.79999
+[1] 189
+      vrot      chi2 min_theta0 min_theta0_deg
+102 1085.4 -47663689   3.110488       178.2178
+[1] 190
+       vrot      chi2 min_theta0 min_theta0_deg
+87 729.3686 -25578364  0.4619989       26.47058
+[1] 191
+       vrot       chi2 min_theta0 min_theta0_deg
+4 -1117.544 -253999640   0.431199       24.70588
+[1] 192
+        vrot       chi2 min_theta0 min_theta0_deg
+20 -765.6175 -287642039  0.6405189       36.69902
+[1] 193
+        vrot       chi2 min_theta0 min_theta0_deg
+14 -900.5875 -117399828   2.658271       152.3077
+[1] 194
+       vrot       chi2 min_theta0 min_theta0_deg
+27 -622.279 -229456359   2.932153            168
+[1] 195
+        vrot       chi2 min_theta0 min_theta0_deg
+106 1063.988 -306337680   2.015361       115.4717
+[1] 196
+        vrot      chi2 min_theta0 min_theta0_deg
+106 1042.976 -18129945   1.673559       95.88783
+[1] 197
+        vrot      chi2 min_theta0 min_theta0_deg
+29 -595.8593 -56564208   1.279908       73.33332
+[1] 198
+        vrot      chi2 min_theta0 min_theta0_deg
+12 -955.2477 -93886579   1.498741       85.87155
+[1] 199
+        vrot      chi2 min_theta0 min_theta0_deg
+100 877.1706 -29523575   2.622798       150.2752
+[1] 200
+       vrot      chi2 min_theta0 min_theta0_deg
+91 672.7273 -43532407   1.342317       76.90908
+
