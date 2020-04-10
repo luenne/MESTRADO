@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PPGMC.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/fichacatalografica.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/folhaAprovacao.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/resumoPt.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/listaFiguras.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/listaTabelas.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/sumario.aux
+A level-1 auxiliary file: ./02-elementos-textuais/cap1-introducao.aux
+A level-1 auxiliary file: ./02-elementos-textuais/cap2-Elementos_dissertacao.aux
+A level-1 auxiliary file: ./02-elementos-textuais/cap5-conclusao.aux
+A level-1 auxiliary file: ./03-elementos-pos-textuais/anexos.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: ./03-elementos-pos-textuais/refbase.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 24 entries,
+            6714 wiz_defined-function locations,
+            1343 strings with 12995 characters,
+and the built_in function-call counts, 19689 in all, are:
+= -- 1506
+> -- 728
+< -- 61
++ -- 332
+- -- 216
+* -- 1465
+:= -- 2536
+add.period$ -- 60
+call.type$ -- 25
+change.case$ -- 251
+chr.to.int$ -- 81
+cite$ -- 20
+duplicate$ -- 949
+empty$ -- 1383
+format.name$ -- 1064
+if$ -- 4656
+int.to.chr$ -- 3
+int.to.str$ -- 3
+missing$ -- 418
+newline$ -- 107
+num.names$ -- 100
+pop$ -- 484
+preamble$ -- 1
+purify$ -- 95
+quote$ -- 0
+skip$ -- 1189
+stack$ -- 1
+substring$ -- 880
+swap$ -- 522
+text.length$ -- 42
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3
+warning$ -- 0
+while$ -- 164
+width$ -- 0
+write$ -- 344

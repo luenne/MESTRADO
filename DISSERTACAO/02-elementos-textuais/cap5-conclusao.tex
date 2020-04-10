@@ -1,20 +1,28 @@
 %
 % Documento: Conclusão
 \chapter{Conclusão}\label{chap:conclusao}
-Espera-se que o uso do estilo de formatação LATEX adequado às Normas para Elaboração de Trabalhos Acadêmicos do PPGMC-UESC ({\ttfamily ppgmc-uesc.cls}) facilite a escrita de documentos no âmbito do programa e da UESC e aumente a produtividade de seus autores. Para usuários iniciantes em LATEX, existe ainda uma série de recursos  e fontes de informação em livros e apostilas na internet sobre o \LaTeX \cite{CTAN214,Wikibooks14}.
+Neste trabalho apresentamos um método de detecção de rotação em aglomerados de galáxias desenvolvido em R. Nosso objetivo foi investigar um dos aspectos menos estudados a respeito de aglomerados, que é a possibilidade de que eles tenham algum grau de rotação. Não levar em consideração a rotação de aglomerados pode gerar um erro nas suas estimativas de massa. O entendimento, controle e redução deste tipo de erro são de grande importância para a astrofísica extragaláctica. 
 
-Recomendamos o editor de textos Kile como ferramenta de composição de documentos em LATEX para usuários Linux. Para usuários Windows um dos editores: TexStudio \cite{TexStudio}, TexMaker \cite{TexMaker} ou   TEXnicCenter \cite{TeXnicCenter} . Os dois primeiros são mas simples de utilizar, além de terem a opção dos menus em português. O LATEX normalmente já faz parte da maioria das distribuições Linux, mas no sistema operacional Windows é necessário instalar  o copilador MiKTeX \cite{MiKTeX}. 
+Utilizamos os catálogos \textbf{selec20}, composto por 20 aglomerados; \textbf{NoSocs}, com 183 aglomerados, sendo que 25 aglomerados continham um total inferior a 20 objetos, sendo inviável o cálculo de detecção; \textbf{III} que geramos duas amostras I e II de aglomerados com grau de rotação e sem rotação, respectivamente. 
 
-Além disso, também recomendamos o uso de um gerenciador de referências como o JabRef \cite{JabRef} ou Mendeley \cite{Mendeley} para a catalogação bibliográfica em um arquivo BIBTEX, de forma a facilitar citações através do comando \verb#\cite{}# e outros comandos correlatos do pacote ABNTEX. A lista de referências deste documento foi gerada automaticamente pelo software LATEX + BIBTEX a partir do arquivo {\ttfamily refbase.bib}, que por sua vez foi composto com o gerenciador de referências Mendeley.
+Além da aplicação do nosso método nos catálogos, implementamos o método de Hwang \& Lee que utiliza a relação sinoidal para o cálculo do ângulo do eixo de rotação $\theta_o$ e a velocidade de rotação $v_{rot}$. Os resultados foram comparados e como conclusão temos que:
+
+\begin{itemize}
+   \item \textbf{Para o catálogo I (selec20)}: o nosso método detectou 14 aglomerados com evidência de rotação. Já o método de Hwang \& Lee detectou um grau de rotação para todos os aglomerados. 
+   \item \textbf{Para o catálogo II (NoSocs)}: com total de 158 aglomerados, aproximadamente 39.87\%, ou seja, 63 dos aglomerados, dectectaram rotação. Diferente do nosso método, o de Hwang \& Lee considerou os 183 aglomerados e detectou rotação em 97.81\% deles.   
+   \item \textbf{Para o catálogo I (selec20)}: para este catálogo simulamos duas amostras I e II com 200 aglomerados em cada um deles. Na amostra I todos os aglomerados tinham um grau de rotação. Já na amostra II, todos os aglomerados eram sem rotação. No nosso método, para a amostra I, detectamos rotação em todos os aglomerados, enquanto o método de Hwang \& Lee apenas 96.5\% dos casos. Para a amostra II, o nosso método detectou rotação em 13.5\% dos aglomerados e o de Hwang \& Lee um total de 96.5\%.
+ \end{itemize}     
+
+ Como desconhecemos as propriedades dinâmicas dos catálogos I e II utilizamos o método de Monte Carlo para simular amostras de aglomerados com rotação e sem rotação. Nesse cenário, nosso método obteve resultados mais seguros.
+
 
 \section{Trabalhos Futuros}
 \label{sec:trabalhosFuturos}
 
-Com as sugestões dos colegas e professores iremos melhorando a classe.
-\section{Contato}
-\label{sec:contatos}
-Para dúvidas e sugestões:
+Como perspectivas, temos que uma possível continuação deste trabalho é realizar a correção no cálculo da massa através da fórmula \ref{eq:massa}. 
 
-Email: \href{vjsantos@uesc.br}{vjsantos@uesc.br} ou \href{waldexsantos@gmail.com}{waldexsantos@gmail.com}
-
-Fone: (73) 88771636/ (77) 91946511
+\begin{equation}
+\omega^2 R = {GM}/{R},
+\label{eq:massa}
+\end{equation}
+onde $\omega$ é a velocidade rotacional, R é o raio, M a massa e G é a constante gravitacional.

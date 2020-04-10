@@ -18,17 +18,22 @@
 \contentsline {subsection}{\numberline {5.1.4}Pacote Astro}{15}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}Pacote cosmoFns}{15}{subsection.5.1.5}
 \contentsline {chapter}{\chapternumberline {6}Dados e Metodologia}{16}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Cat\IeC {\'a}logo I: selec20}{16}{subsection.6.0.1}
-\contentsline {subsection}{\numberline {6.0.2}Cat\IeC {\'a}logo II: NoSOCS}{16}{subsection.6.0.2}
-\contentsline {subsection}{\numberline {6.0.3}Cat\IeC {\'a}logo III}{17}{subsection.6.0.3}
-\contentsline {subsection}{\numberline {6.0.4}Nosso M\IeC {\'e}todo}{20}{subsection.6.0.4}
-\contentsline {subsection}{\numberline {6.0.5}M\IeC {\'e}todo de Hwang \& Lee - adaptado}{22}{subsection.6.0.5}
+\contentsline {section}{\numberline {6.1}Cat\IeC {\'a}logo I: selec20}{16}{section.6.1}
+\contentsline {section}{\numberline {6.2}Cat\IeC {\'a}logo II: NoSOCS}{16}{section.6.2}
+\contentsline {section}{\numberline {6.3}Cat\IeC {\'a}logo III}{17}{section.6.3}
+\contentsline {section}{\numberline {6.4}Nosso M\IeC {\'e}todo}{20}{section.6.4}
+\contentsline {section}{\numberline {6.5}M\IeC {\'e}todo de Hwang \& Lee - adaptado}{23}{section.6.5}
 \contentsline {chapter}{\chapternumberline {7}An\IeC {\'a}lise}{24}{chapter.7}
-\contentsline {subsection}{\numberline {7.0.1}Cat\IeC {\'a}logo I: selec20}{24}{subsection.7.0.1}
-\contentsline {subsection}{\numberline {7.0.2}Cat\IeC {\'a}logo II: NoSOCS}{27}{subsection.7.0.2}
+\contentsline {section}{\numberline {7.1}Cat\IeC {\'a}logo I: selec20}{24}{section.7.1}
+\contentsline {section}{\numberline {7.2}Cat\IeC {\'a}logo II: NoSOCS}{28}{section.7.2}
+\contentsline {section}{\numberline {7.3}Cat\IeC {\'a}logo III: }{35}{section.7.3}
+\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{50}{chapter.8}
+\contentsline {section}{\numberline {8.1}Trabalhos Futuros}{51}{section.8.1}
+\vspace {\cftbeforepartskip }
+\contentsline {chapter}{Refer\^encias}{52}{section*.22}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{30}{section*.5}
-\contentsline {appendix}{\chapternumberline {A}Resultados Cat\IeC {\'a}logo selec20}{31}{appendix.anexochapback.1}
-\contentsline {appendix}{\chapternumberline {B}Resultados Cat\IeC {\'a}logo NoSOCS}{35}{appendix.anexochapback.2}
-\vspace {\cftbeforepartskip }
+\contentsline {part}{Anexos}{54}{section*.23}
+\contentsline {appendix}{\chapternumberline {A}Resultados Cat\IeC {\'a}logo selec20}{55}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {B}Resultados Cat\IeC {\'a}logo NoSOCS}{58}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {C}Resultados Cat\IeC {\'a}logo III}{76}{appendix.anexochapback.3}
