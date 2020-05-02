@@ -515,31 +515,44 @@ Na Figura \ref{elipse}, vemos o ajuste da elipse na distribuição (X,Y) projeta
 \caption{Teste Cramer e Hotelling aplicado no catálogo selec20.}
 \vspace{12pt}
 \centering{}
-\resizebox{1.0\textwidth}{!}{
-\begin{tabular}{llllllll}
+\resizebox{0.85\textwidth}{!}{
+\begin{tabular}{lllllllll}
 \hline
-\multirow{2}{*}{\textbf{Cluster}}  & \multicolumn{2}{|c|}{\textbf{Cenário 1}} & \multicolumn{2}{c|}{\textbf{Cenário 2}} & \multicolumn{2}{c|}{\textbf{Cenário 3}} & \multirow{2}{*}{\textbf{Nº galáxias}} \\ \cline{2-7}
-                         & \multicolumn{1}{|c}{\textbf{Cramer}}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}       &                              \\ \hline
-01  &  0.4965 & 0.6160 & 0.7682 &  0.8717 & 0.3646 & 0.7469 & 223 \\ 
-02  &  {\color{red}0.0039} & {\color{red}0.0078} &  0.0769 &  {\color{red}0.0069} & {\color{red}0.0219} & 0.0916 & 244 \\ 
-03  &  0.2987 & 0.5612 &  0.6483 &  0.2024 & 0.0609 & 0.1299 & 177 \\   
-04  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} &  {\color{red}<0.0001} & {\color{red}0.0069} & {\color{red}0.01569} & 435 \\ 
-05  &  0.0979 & {\color{red}0.0483} & {\color{red}0.0449} & 0.0723 & 0.0829 & 0.3963 & 951\\ 
-06  &  0.2817 & 0.2650 &  0.4725 &  0.8041 & 0.2577 & 0.4140 & 165 \\ 
-07  &  {\color{red}0.0419} & 0.5880 & 0.5564 &  0.6346 & {\color{red}0.0389} & 0.8842 & 313 \\ 
-08  &  {\color{red}0.0099} & 0.4446 & {\color{red}0.0119} & 0.0807 & 0.0719 & 0.0551 & 225 \\ 
-09  &  {\color{red}0.0289} & 0.2301 & {\color{red}0.0359} & {\color{red}0.0373} & 0.0959 & {\color{red}0.0364} & 215 \\ 
-10  &  {\color{red}0.0009} & {\color{red}0.0067} &  {\color{red}0.0039} & {\color{red}0.0258} & 0.5024 & 0.8036 & 308 \\ 
-11  &  {\color{red}0.0009} & {\color{red}0.0031} &  0.3356 &  0.9006 & {\color{red}0.0009} & 0.0696 & 651 \\ 
-12  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} &  {\color{red}<0.0001} &  173 \\ 
-13  &  0.1068 & 0.6982 &  0.1338 &  0.1516 & 0.2657 & 0.3324 & 218 \\ 
-14  &  {\color{red}0.0389} & {\color{red}0.0054} & 0.4755 &  0.2110 & 0.7602 & 0.5019 & 127 \\ 
-15  &  0.1178 & 0.5744 &  0.3416 &  0.2242 & {\color{red}0.0369} & 0.0609 & 114 \\ 
-16  &  {\color{red}0.0449} & 0.5181 & {\color{red}0.0029} &  {\color{red}0.0194} & 0.4085 & 0.4775 & 144  \\ 
-17  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} & 0.23676 & 0.3371 & 773 \\ 
-18  &  {\color{red}<0.0001} & {\color{red}0.0427} & {\color{red}0.0149} &  {\color{red}0.0075} & 0.1298 & 0.7534 & 233 \\ 
-19  &  0.0879 & 0.4063 &  0.2997 &  0.2953 & 0.1378 & 0.2396 & 113 \\ 
-20  &  0.1188 & 0.9037 &  0.0729 &  0.3173 & 0.1288 & 0.2297 & 210 \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Cluster}}}  		& 
+\multicolumn{2}{|c}{\textbf{Cenário 1}}                     & 
+\multicolumn{2}{c}{\textbf{Cenário 2}}                      & 
+\multicolumn{2}{c|}{\textbf{Cenário 3}}                     & 
+\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{$ V_{rot} (km \, s^{-1})$}}}    & 
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Nº galáxias}}}  \\ \cline{2-7}
+\multicolumn{1}{c}{}                                        & 
+\multicolumn{1}{|c}{\textbf{Cramer}}                        &                 
+\multicolumn{1}{c}{\textbf{Hotelling}}                      & 
+\multicolumn{1}{c}{\textbf{Cramer}}                         & 
+\textbf{Hotelling} & \textbf{Cramer}                        & 
+\multicolumn{1}{l|}{\textbf{Hotelling}}                     & 
+\multicolumn{1}{c|}{}                                       & 
+\multicolumn{1}{c}{}                                    
+\\ \hline
+01  &  0.4965 & 0.6160 & 0.7682 &  0.8717 & 0.3646 & 0.7469 & - & 223 \\ 
+02  &  {\color{red}0.0039} & {\color{red}0.0078} &  0.0769 &  {\color{red}0.0069} & {\color{red}0.0219} & 0.0916 & 1014.69 & 244 \\ 
+03  &  0.2987 & 0.5612 &  0.6483 &  0.2024 & 0.0609 & 0.1299 & - & 177 \\   
+04  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} &  {\color{red}<0.0001} & {\color{red}0.0069} & {\color{red}0.01569} & 816.91 & 435 \\ 
+05  &  0.0979 & {\color{red}0.0483} & {\color{red}0.0449} & 0.0723 & 0.0829 & 0.3963 & 1284.33 & 951\\ 
+06  &  0.2817 & 0.2650 &  0.4725 &  0.8041 & 0.2577 & 0.4140 & - & 165 \\ 
+07  &  {\color{red}0.0419} & 0.5880 & 0.5564 &  0.6346 & {\color{red}0.0389} & 0.8842 & 1878.89 & 313 \\ 
+08  &  {\color{red}0.0099} & 0.4446 & {\color{red}0.0119} & 0.0807 & 0.0719 & 0.0551 & 824.97 & 225 \\ 
+09  &  {\color{red}0.0289} & 0.2301 & {\color{red}0.0359} & {\color{red}0.0373} & 0.0959 & {\color{red}0.0364} & 837.38 & 215 \\ 
+10  &  {\color{red}0.0009} & {\color{red}0.0067} &  {\color{red}0.0039} & {\color{red}0.0258} & 0.5024 & 0.8036 & 1232.28 & 308 \\ 
+11  &  {\color{red}0.0009} & {\color{red}0.0031} &  0.3356 &  0.9006 & {\color{red}0.0009} & 0.0696 & 1154.06 & 651 \\ 
+12  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} &  {\color{red}<0.0001} & 2728.77 & 173 \\ 
+13  &  0.1068 & 0.6982 &  0.1338 &  0.1516 & 0.2657 & 0.3324 & - & 218 \\ 
+14  &  {\color{red}0.0389} & {\color{red}0.0054} & 0.4755 &  0.2110 & 0.7602 & 0.5019 & - & 127 \\ 
+15  &  0.1178 & 0.5744 &  0.3416 &  0.2242 & {\color{red}0.0369} & 0.0609 & - & 114 \\ 
+16  &  {\color{red}0.0449} & 0.5181 & {\color{red}0.0029} &  {\color{red}0.0194} & 0.4085 & 0.4775 & 781.13 & 144  \\ 
+17  &  {\color{red}<0.0001}  & {\color{red}<0.0001} & {\color{red}<0.0001} & {\color{red}<0.0001} & 0.23676 & 0.3371 & 2239.97 & 773 \\ 
+18  &  {\color{red}<0.0001} & {\color{red}0.0427} & {\color{red}0.0149} &  {\color{red}0.0075} & 0.1298 & 0.7534 & - & 233 \\ 
+19  &  0.0879 & 0.4063 &  0.2997 &  0.2953 & 0.1378 & 0.2396 & - & 113 \\ 
+20  &  0.1188 & 0.9037 &  0.0729 &  0.3173 & 0.1288 & 0.2297 & - & 210 \\ \hline
 \label{tab:selec20T}
 \end{tabular}
 }
@@ -608,6 +621,17 @@ Aplicamos o método de Hwang \& Lee para o catálogo selec20 e os resultados sã
 \label{tab:selec20hwang}
 \end{table}
 
+Com intuito de comparar os valores das velocidades de rotação encontradas em cada um dos métodos para todos os aglomerados do catálogo selec20, construímos o gráfico ilustrado na figura \ref{vrotselec20}.
+
+\begin{figure}[H] %h or !htbp
+\vspace{-2pt}
+\begin{center}
+\includegraphics[scale=0.30]{04-figuras/selec20vrot}%
+\caption{Comparação das velocidades de rotação encontradas em cada um dos métodos para catálogo selec20.}
+\label{vrotselec20}%
+\end{center}
+\end{figure}
+
 \section{Catálogo II: NoSOCS}
 \textbf{NOSSO MÉTODO}
 
@@ -628,43 +652,56 @@ Aplicamos os mesmos cenários e testes usados no catálogo selec20 e verificamos
 \vspace{12pt}
 \centering{}
 \resizebox{.9\textwidth}{!}{
-\begin{tabular}{cccccccc}
+\begin{tabular}{lllllllll}
 \hline
-\multirow{2}{*}{\textbf{Cluster}} & \multicolumn{2}{|c|}{\textbf{Cenário 1}} & \multicolumn{2}{c|}{\textbf{Cenário 2}} & \multicolumn{2}{c|}{\textbf{Cenário 3}} & \multirow{2}{*}{\textbf{Nº galáxias}} \\ \cline{2-7}
-                         & \multicolumn{1}{|c}{\textbf{Cramer}}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}                                  \\ \hline
-01238 & {\color{red}0.0039}	& {\color{red}0.0056} & {\color{red}0.0219} & {\color{red}0.0252} & 0.0569 & 0.1505 & 44 \\ 
-01836 & {\color{red} < 0.0001} & {\color{red}0.0003} & {\color{red}0.0069} & {\color{red}0.0108} &  {\color{red}0.0229} & {\color{red}0.0012} & 86 \\ 
-02440 & {\color{red}0.0179} & {\color{red}0.0906} & {\color{red}0.0699} & {\color{red}0.0057} & {\color{red}0.1508} & {\color{red}0.1378} & 41 \\ 
-02447 & 0.5114 & 0.6465 & {\color{red}0.0319} & 0.0532 & 0.7432 & 0.5480 & 46 \\ 
-04681 & {\color{red}0.0149} & {\color{red}0.0174} & {\color{red}0.0249} & {\color{red}0.0478} & 0.2047 & 0.2128 & 162 \\ 
-04703 & {\color{red}0.0019} & {\color{red}0.0005} & {\color{red}0.0279} & {\color{red}0.0186} & 0.1098 & 0.1499 & 91 \\ 
-06256 & {\color{red}0.0359} & {\color{red}0.0166} & {\color{red}0.0269} & {\color{red}0.0133} & 0.2837 & 0.3682 & 37 \\ 
-06547 & {\color{red} < 0.0001} & {\color{red}0.0052} & 0.5624 & 0.8490 & {\color{red}0.0019} & {\color{red}0.0050} & 112 \\ 
-07217 & 0.0779 & {\color{red}0.0384} & 0.3826 & 0.4338 & 0.1528 & 0.4565 & 24 \\ 
-07703 & {\color{red}0.0439} & 0.0796 & {\color{red}0.0059} & {\color{red}0.0151} & 0.5864 & 0.9808 & 48 \\ 
-09148 & {\color{red}0.0129} & {\color{red}0.0044} & {\color{red}0.0489} & 0.1124 & {\color{red}0.0229} & 0.0891 & 31 \\ 
-10008 & {\color{red}0.0019} & 0.2934 & {\color{red}0.0299} & 0.3870 & {\color{red}0.0259} & 0.1435 & 123 \\ 
-10013 & {\color{red}0.0089} & {\color{red}0.0313} & 0.2877 & 0.8329 & 0.3776 & 0.5823 & 86 \\ 
-10015 & {\color{red}0.0039} & 0.0576 & 0.0929 & 0.2795 & {\color{red}0.0299} & 0.0574 & 139 \\ 
-10020 & {\color{red}0.0009} & {\color{red}0.0086} & {\color{red}0.0039} & 0.4036 & {\color{red}0.0049} & {\color{red}0.0166} & 114 \\ 
-10021 & {\color{red}0.0049} & {\color{red}0.0305} & {\color{red}0.0129} & {\color{red}0.0152} & NA & NA & 89 \\ 
-10023 & {\color{red}0.0409} & 0.0848 & 0.0789 & 0.2775 & 0.1108 & 0.2771 & 107 \\ 
-10024 & {\color{red}0.0379} & 0.0749 & 0.0909 & 0.2553 & 0.2317 & 0.4133 & 113 \\ 
-10027 & 0.1638 & 0.4139 & 0.2687 & 0.3932 & {\color{red}0.0359} & 0.0593 & 86 \\ 
-10029 & {\color{red}0.0259} & 0.0564 & {\color{red}0.0489} & 0.1656 & 0.0579 & 0.0581 & 135 \\ 
-10030 & {\color{red} < 0.0001} & > 1.0 & {\color{red}0.0139} & {\color{red}0.0152} & {\color{red} < 0.0001} & > 1.0 & 87 \\ 
-10037 & {\color{red}0.0009} & {\color{red}0.0089} & {\color{red}0.0329} & 0.2859 & 0.0709 & 0.1575 & 145 \\ 
-10043 & {\color{red}0.0209} & 0.0599 & 0.0539 & 0.0616 & 0.1888 & 0.2711 & 218 \\ 
-10044 & {\color{red} < 0.0001} & > 1.0 & {\color{red}0.0039} & {\color{red}0.0081} & {\color{red}0.0019} & {\color{red}0.0010} & 177 \\ 
-10045 & 0.1038 & 0.2814 & {\color{red}0.0379} & 0.0935 & 0.4815 & 0.9611 & 55 \\ 
-10051 & {\color{red}0.0459} & 0.2409 & {\color{red} < 0.0001} & {\color{red}0.0037} & 0.2147 & 0.0671 & 189 \\ 
-10053 & 0.0659 & 0.5593 & {\color{red} < 0.0001} & {\color{red}0.0001} & {\color{red}0.0019} & {\color{red}0.0010} & 447 \\ 
-10054 & {\color{red} < 0.0001} & {\color{red}0.0068} & 0.2017 & 0.5760 & {\color{red} < 0.0001} & {\color{red}0.0107} & 537 \\ 
-10056 & {\color{red}0.0259} & {\color{red}0.0209} & 0.1608 & {\color{red}0.0471} & 0.3186 & 0.3730 & 100 \\ 
-10059 & {\color{red}0.0419} & 0.4240 & 0.1118 & 0.2904 & 0.3096 & 0.4049 & 150 \\ 
-10060 & 0.2017 & 0.9175 & {\color{red}0.0059} & {\color{red}0.0485} & 0.8311 & 0.6474 & 133 \\ 
-10063 & 0.0999 & 0.6957 & {\color{red}0.0499} & 0.1891 & {\color{red}0.0339} & 0.1027 & 219 \\ 
-10064 & 0.0969 & {\color{red}0.0428} & 0.2797 & 0.1394 & 0.6283 & 0.7897 & 133 \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Cluster}}}  		& 
+\multicolumn{2}{|c}{\textbf{Cenário 1}}                     & 
+\multicolumn{2}{c}{\textbf{Cenário 2}}                      & 
+\multicolumn{2}{c|}{\textbf{Cenário 3}}                     & 
+\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{$ V_{rot} (km \, s^{-1})$}}}    & 
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Nº galáxias}}}  \\ \cline{2-7}
+\multicolumn{1}{c}{}                                        & 
+\multicolumn{1}{|c}{\textbf{Cramer}}                        &                 
+\multicolumn{1}{c}{\textbf{Hotelling}}                      & 
+\multicolumn{1}{c}{\textbf{Cramer}}                         & 
+\textbf{Hotelling} & \textbf{Cramer}                        & 
+\multicolumn{1}{l|}{\textbf{Hotelling}}                     & 
+\multicolumn{1}{c|}{}                                       & 
+\multicolumn{1}{c}{}                                    
+ \hline
+01238 & {\color{red}0.0039}	& {\color{red}0.0056} & {\color{red}0.0219} & {\color{red}0.0252} & 0.0569 & 0.1505 & 797.69 & 44 \\ 
+01836 & {\color{red} < 0.0001} & {\color{red}0.0003} & {\color{red}0.0069} & {\color{red}0.0108} &  {\color{red}0.0229} & {\color{red}0.0012} & 448.87 & 86 \\ 
+02440 & {\color{red}0.0179} & {\color{red}0.0906} & {\color{red}0.0699} & {\color{red}0.0057} & {\color{red}0.1508} & {\color{red}0.1378} & 302.64 & 41 \\ 
+02447 & 0.5114 & 0.6465 & {\color{red}0.0319} & 0.0532 & 0.7432 & 0.5480 & - & 46 \\ 
+04681 & {\color{red}0.0149} & {\color{red}0.0174} & {\color{red}0.0249} & {\color{red}0.0478} & 0.2047 & 0.2128 & 1084.22 & 162 \\ 
+04703 & {\color{red}0.0019} & {\color{red}0.0005} & {\color{red}0.0279} & {\color{red}0.0186} & 0.1098 & 0.1499 & 1147.11 & 91 \\ 
+06256 & {\color{red}0.0359} & {\color{red}0.0166} & {\color{red}0.0269} & {\color{red}0.0133} & 0.2837 & 0.3682 & 665.03 & 37 \\ 
+06547 & {\color{red} < 0.0001} & {\color{red}0.0052} & 0.5624 & 0.8490 & {\color{red}0.0019} & {\color{red}0.0050} & 1104.74 & 112 \\ 
+07217 & 0.0779 & {\color{red}0.0384} & 0.3826 & 0.4338 & 0.1528 & 0.4565 & - & 24 \\ 
+07703 & {\color{red}0.0439} & 0.0796 & {\color{red}0.0059} & {\color{red}0.0151} & 0.5864 & 0.9808 & 308.04 & 48 \\ 
+09148 & {\color{red}0.0129} & {\color{red}0.0044} & {\color{red}0.0489} & 0.1124 & {\color{red}0.0229} & 0.0891 & - & 31 \\ 
+10008 & {\color{red}0.0019} & 0.2934 & {\color{red}0.0299} & 0.3870 & {\color{red}0.0259} & 0.1435 & 1524.44 & 123 \\ 
+10013 & {\color{red}0.0089} & {\color{red}0.0313} & 0.2877 & 0.8329 & 0.3776 & 0.5823 & 933.65 & 86 \\ 
+10015 & {\color{red}0.0039} & 0.0576 & 0.0929 & 0.2795 & {\color{red}0.0299} & 0.0574 & 1291.87 & 139 \\ 
+10020 & {\color{red}0.0009} & {\color{red}0.0086} & {\color{red}0.0039} & 0.4036 & {\color{red}0.0049} & {\color{red}0.0166} & 1195.4 & 114 \\ 
+10021 & {\color{red}0.0049} & {\color{red}0.0305} & {\color{red}0.0129} & {\color{red}0.0152} & NA & NA & - & 89 \\ 
+10023 & {\color{red}0.0409} & 0.0848 & 0.0789 & 0.2775 & 0.1108 & 0.2771 & 1738.54 & 107 \\ 
+10024 & {\color{red}0.0379} & 0.0749 & 0.0909 & 0.2553 & 0.2317 & 0.4133 & 1873.25 & 113 \\ 
+10027 & 0.1638 & 0.4139 & 0.2687 & 0.3932 & {\color{red}0.0359} & 0.0593 & 824.85 & 86 \\ 
+10029 & {\color{red}0.0259} & 0.0564 & {\color{red}0.0489} & 0.1656 & 0.0579 & 0.0581 & 505.62 & 135 \\ 
+10030 & {\color{red} < 0.0001} & > 1.0 & {\color{red}0.0139} & {\color{red}0.0152} & {\color{red} < 0.0001} & > 1.0 & 323.01 & 87 \\ 
+10037 & {\color{red}0.0009} & {\color{red}0.0089} & {\color{red}0.0329} & 0.2859 & 0.0709 & 0.1575 & 1141.23 & 145 \\ 
+10043 & {\color{red}0.0209} & 0.0599 & 0.0539 & 0.0616 & 0.1888 & 0.2711 & 686.59 & 218 \\ 
+10044 & {\color{red} < 0.0001} & > 1.0 & {\color{red}0.0039} & {\color{red}0.0081} & {\color{red}0.0019} & {\color{red}0.0010} & 1431.5 & 177 \\ 
+10045 & 0.1038 & 0.2814 & {\color{red}0.0379} & 0.0935 & 0.4815 & 0.9611 & 450.57 & 55 \\ 
+10051 & {\color{red}0.0459} & 0.2409 & {\color{red} < 0.0001} & {\color{red}0.0037} & 0.2147 & 0.0671 & 857.33 & 189 \\ 
+10053 & 0.0659 & 0.5593 & {\color{red} < 0.0001} & {\color{red}0.0001} & {\color{red}0.0019} & {\color{red}0.0010} & 981.84 & 447 \\ 
+10054 & {\color{red} < 0.0001} & {\color{red}0.0068} & 0.2017 & 0.5760 & {\color{red} < 0.0001} & {\color{red}0.0107} & 1230.39 & 537 \\ 
+10056 & {\color{red}0.0259} & {\color{red}0.0209} & 0.1608 & {\color{red}0.0471} & 0.3186 & 0.3730 & 1457.95 & 100 \\ 
+10059 & {\color{red}0.0419} & 0.4240 & 0.1118 & 0.2904 & 0.3096 & 0.4049 & - & 150 \\ 
+10060 & 0.2017 & 0.9175 & {\color{red}0.0059} & {\color{red}0.0485} & 0.8311 & 0.6474 & 803.62 & 133 \\ 
+10063 & 0.0999 & 0.6957 & {\color{red}0.0499} & 0.1891 & {\color{red}0.0339} & 0.1027 & 1236.38 & 219 \\ 
+10064 & 0.0969 & {\color{red}0.0428} & 0.2797 & 0.1394 & 0.6283 & 0.7897 & 1122.04 & 133 \\ \hline
 \label{tab:nosocsI}
 \end{tabular}
 }
@@ -675,40 +712,52 @@ Aplicamos os mesmos cenários e testes usados no catálogo selec20 e verificamos
 \vspace{12pt}
 \centering{}
 \resizebox{.9\textwidth}{!}{
-\begin{tabular}{cccccccc}
+\begin{tabular}{lllllllll}
 \hline
-\multirow{2}{*}{\textbf{Cluster}} & \multicolumn{2}{|c|}{\textbf{Cenário 1}} & \multicolumn{2}{c|}{\textbf{Cenário 2}} & \multicolumn{2}{c|}{\textbf{Cenário 3}} & \multirow{2}{*}{\textbf{Nº galáxias}} \\ \cline{2-7}
-                         & \multicolumn{1}{|c}{\textbf{Cramer}}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}       & \textbf{Cramer}       & \textbf{Hotelling}       &                              \\ \hline
-01831 & {\color{red} < 0.0001} & {\color{red}0.0026} & {\color{red}0.0019} & {\color{red}0.0312} & {\color{red}0.0099} & {\color{red}0.0040} & 72 \\
-02137 & {\color{red}0.0369} & 0.3470 & 0.2487 & 0.3295 & 0.1618 & 0.7326 & 34 \\
-02433 & 0.1188 & 0.3012 & 0.8461 & NA & {\color{red}0.0329} & 0.2165 & 31 \\
-03176 & {\color{red}0.0409} & 0.4379 & 0.1558 & 0.1618 & 0.1118 & 0.7231 & 26 \\
-03691 & 0.0609 & {\color{red}0.0318} & 0.4645 & 0.5344 & 0.4355 & 0.1154 & 43 \\
-03907 & 0.1148 & 0.1686 & {\color{red}0.0159} & 0.0652 & 0.6063 & 0.9985 & 44 \\
-04048 & 0.1398 & {\color{red}0.0232} & 0.2527 & 0.2135 & 0.8171 & 0.5988 & 30 \\
-04409 & {\color{red}0.0009} & {\color{red}0.0012} & 0.1018 & 0.1781 & {\color{red}0.0069} & {\color{red}0.01041} & 23 \\
-04470 & {\color{red}0.0479} & 0.1103 & 0.5114 & NA & 0.0569 & 0.1361 & 35 \\
-04479 & 0.0909 & 0.1737 & 0.8301 & 0.0699 & {\color{red}0.0139} & {\color{red}0.0205} & 25 \\
-04672 & 0.3546 & 0.6005 & 0.5404 & 0.4337 & 0.1688 & {\color{red}0.0242} & 48 \\
-05359 & 0.0969 & 0.1166 & {\color{red}0.0109} & {\color{red}0.0250} & 0.4835 & 0.7024 & 62 \\
-05447 & {\color{red} < 0.0001} & {\color{red}0.0010} & {\color{red}0.0239} & {\color{red}0.0463} & {\color{red}0.0079} & {\color{red}0.0156} & 57 \\
-06207 & 0.6263 & 0.3789 & 0.2682 & {\color{red}0.0077} & 0.7092 & 0.5950 & 21 \\
-06286 & 0.1298 & 0.0540 & {\color{red}0.0199} & {\color{red}0.0133} & 0.1308 & 0.1592 & 70 \\
-07395 & 0.3286 & 0.7779 & 0.4095 & 0.6738 & 0.1368 & {\color{red}0.0007} & 29 \\
-08022 & 0.2667 & 0.8572 & {\color{red}0.0409} & 0.2593 & 0.1478 & 0.1502 & 51 \\
-08721 & {\color{red}0.0329} & 0.1291 & 0.2257 & 0.5158 & 0.0849 & 0.2758 & 47 \\
-09061 & 0.3026 & {\color{red}0.0371} & 0.8051 & 0.8967 & 0.5174 & 0.0671 & 46 \\
-10006 & {\color{red}0.0409} & 0.0847 & 0.1958 & 0.6024 & {\color{red}0.0189} & {\color{red}0.0057} & 74 \\
-10016 & {\color{red}0.0009} & {\color{red}0.0008} & {\color{red}0.0349} & 0.0727 & {\color{red}0.0009} & {\color{red}0.0056} & 92 \\
-10018 & 0.3986 & 0.3313 & {\color{red}0.0479} & 0.8072 & 0.3306 & 0.1415 & 65 \\
-10026 & {\color{red}0.0339} & {\color{red}0.0363} & 0.5314 & 0.6806 & {\color{red} < 0.0001} & {\color{red}0.0018} & 130 \\
-10028 & {\color{red}0.0189} & {\color{red}0.0187} & 0.2317 & 0.2742 & 0.0539 & 0.0525 & 80 \\
-10031 & {\color{red} < 0.0001} & {\color{red}0.0006} & {\color{red}0.0029} & {\color{red}0.0010} & {\color{red} < 0.0001} & {\color{red}0.0001} & 141 \\
-10035 & 0.1228 & 0.1567 & 0.5054 & 0.9967 & {\color{red}0.0299} & 0.0745 & 58 \\
-10036 & 0.4105 & 0.9175 & 0.0569 & {\color{red}0.0455} & 0.6703 & 0.5445 & 119 \\
-10040 & {\color{red}0.0009} & {\color{red}0.0019} & {\color{red}0.0369} & 0.0593 & {\color{red}0.0079} & {\color{red}0.0099} & 99 \\
-10050 & {\color{red}0.0209} & 0.5951 & 0.0689 & 0.2795 & 0.0779 & 0.0509 & 77 \\
-10055 & {\color{red} < 0.0001} & 0.3621 & 0.2607 & 0.1808 & {\color{red} < 0.0001} & {\color{red}0.0007} & 104 \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Cluster}}}  		& 
+\multicolumn{2}{|c}{\textbf{Cenário 1}}                     & 
+\multicolumn{2}{c}{\textbf{Cenário 2}}                      & 
+\multicolumn{2}{c|}{\textbf{Cenário 3}}                     & 
+\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{$ V_{rot} (km \, s^{-1})$}}}    & 
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Nº galáxias}}}  \\ \cline{2-7}
+\multicolumn{1}{c}{}                                        & 
+\multicolumn{1}{|c}{\textbf{Cramer}}                        &                 
+\multicolumn{1}{c}{\textbf{Hotelling}}                      & 
+\multicolumn{1}{c}{\textbf{Cramer}}                         & 
+\textbf{Hotelling} & \textbf{Cramer}                        & 
+\multicolumn{1}{l|}{\textbf{Hotelling}}                     & 
+\multicolumn{1}{c|}{}                                       & 
+\multicolumn{1}{c}{}                                        \\ \hline
+01831 & {\color{red} < 0.0001} & {\color{red}0.0026} & {\color{red}0.0019} & {\color{red}0.0312} & {\color{red}0.0099} & {\color{red}0.0040} & 345.55 & 72 \\
+02137 & {\color{red}0.0369} & 0.3470 & 0.2487 & 0.3295 & 0.1618 & 0.7326 & - & 34 \\
+02433 & 0.1188 & 0.3012 & 0.8461 & NA & {\color{red}0.0329} & 0.2165 & 593.83 & 31 \\
+03176 & {\color{red}0.0409} & 0.4379 & 0.1558 & 0.1618 & 0.1118 & 0.7231 & 428.81 & 26 \\
+03691 & 0.0609 & {\color{red}0.0318} & 0.4645 & 0.5344 & 0.4355 & 0.1154 & - & 43 \\
+03907 & 0.1148 & 0.1686 & {\color{red}0.0159} & 0.0652 & 0.6063 & 0.9985 & 547.83 & 44 \\
+04048 & 0.1398 & {\color{red}0.0232} & 0.2527 & 0.2135 & 0.8171 & 0.5988 & - & 30 \\
+04409 & {\color{red}0.0009} & {\color{red}0.0012} & 0.1018 & 0.1781 & {\color{red}0.0069} & {\color{red}0.01041} & - & 23 \\
+04470 & {\color{red}0.0479} & 0.1103 & 0.5114 & NA & 0.0569 & 0.1361 & 775.23 & 35 \\
+04479 & 0.0909 & 0.1737 & 0.8301 & 0.0699 & {\color{red}0.0139} & {\color{red}0.0205} & - & 25 \\
+04672 & 0.3546 & 0.6005 & 0.5404 & 0.4337 & 0.1688 & {\color{red}0.0242} & - & 48 \\
+05359 & 0.0969 & 0.1166 & {\color{red}0.0109} & {\color{red}0.0250} & 0.4835 & 0.7024 & 656.00 & 62 \\
+05447 & {\color{red} < 0.0001} & {\color{red}0.0010} & {\color{red}0.0239} & {\color{red}0.0463} & {\color{red}0.0079} & {\color{red}0.0156} & 497.66 & 57 \\
+06207 & 0.6263 & 0.3789 & 0.2682 & {\color{red}0.0077} & 0.7092 & 0.5950 & - & 21 \\
+06286 & 0.1298 & 0.0540 & {\color{red}0.0199} & {\color{red}0.0133} & 0.1308 & 0.1592 & 673.53 & 70 \\
+07395 & 0.3286 & 0.7779 & 0.4095 & 0.6738 & 0.1368 & {\color{red}0.0007} & - & 29 \\
+08022 & 0.2667 & 0.8572 & {\color{red}0.0409} & 0.2593 & 0.1478 & 0.1502 & 650.79 & 51 \\
+08721 & {\color{red}0.0329} & 0.1291 & 0.2257 & 0.5158 & 0.0849 & 0.2758 & 390.67 & 47 \\
+09061 & 0.3026 & {\color{red}0.0371} & 0.8051 & 0.8967 & 0.5174 & 0.0671 & - & 46 \\
+10006 & {\color{red}0.0409} & 0.0847 & 0.1958 & 0.6024 & {\color{red}0.0189} & {\color{red}0.0057} & 932.21 & 74 \\
+10016 & {\color{red}0.0009} & {\color{red}0.0008} & {\color{red}0.0349} & 0.0727 & {\color{red}0.0009} & {\color{red}0.0056} & - & 92 \\
+10018 & 0.3986 & 0.3313 & {\color{red}0.0479} & 0.8072 & 0.3306 & 0.1415 & 748.49 & 65 \\
+10026 & {\color{red}0.0339} & {\color{red}0.0363} & 0.5314 & 0.6806 & {\color{red} < 0.0001} & {\color{red}0.0018} & - & 130 \\
+10028 & {\color{red}0.0189} & {\color{red}0.0187} & 0.2317 & 0.2742 & 0.0539 & 0.0525 & 830.93 & 80 \\
+10031 & {\color{red} < 0.0001} & {\color{red}0.0006} & {\color{red}0.0029} & {\color{red}0.0010} & {\color{red} < 0.0001} & {\color{red}0.0001} & 1070.37 & 141 \\
+10035 & 0.1228 & 0.1567 & 0.5054 & 0.9967 & {\color{red}0.0299} & 0.0745 & 807.11 & 58 \\
+10036 & 0.4105 & 0.9175 & 0.0569 & {\color{red}0.0455} & 0.6703 & 0.5445 & 647.85 & 119 \\
+10040 & {\color{red}0.0009} & {\color{red}0.0019} & {\color{red}0.0369} & 0.0593 & {\color{red}0.0079} & {\color{red}0.0099} & 635.65 & 99 \\
+10050 & {\color{red}0.0209} & 0.5951 & 0.0689 & 0.2795 & 0.0779 & 0.0509 & 795.6 & 77 \\
+10055 & {\color{red} < 0.0001} & 0.3621 & 0.2607 & 0.1808 & {\color{red} < 0.0001} & {\color{red}0.0007} & - & 104 \\ \hline
 
 \label{tab:nosocsII}
 \end{tabular}
@@ -719,7 +768,7 @@ Aplicamos os mesmos cenários e testes usados no catálogo selec20 e verificamos
 
 Aplicamos o método de Hwang \& Lee para o catálogo NoSocs e os resultados são apresentados na tabela \ref{tab:nosocshwang}. Cerca de 97.26\% dos aglomerados (178) detectaram rotação. Apenas nos aglomerados 02907, 08049, 08720, 09144 e 10046 não identificaram grau de rotação.
 
-{\small
+{\scriptsize
 \begin{longtable}{ccccc}
 \caption{Resultado do métdo Hwang \& Lee para o catálogo NoSocs.}\label{tab:nosocshwang}
 \\ \hline
@@ -909,6 +958,17 @@ Aplicamos o método de Hwang \& Lee para o catálogo NoSocs e os resultados são
 10064 & 414.80 & 1.285 & 73.628\\ \hline
 \end{longtable}
 }
+
+Os valores das velocidades de rotação encontradas em cada um dos métodos pode ser vista no gráfico ilustrado na figura \ref{vrotnosocs}.
+
+\begin{figure}[H] %h or !htbp
+\vspace{-2pt}
+\centering
+\subfloat{\includegraphics[scale=.30]{04-figuras/nosocsivrot}}
+\subfloat{\includegraphics[scale=.30]{04-figuras/nosocsiivrot}}
+\caption{Comparação das velocidades de rotação encontradas em cada um dos métodos para catálogo NoSocs.}
+\label{vrotnosocs}
+\end{figure}
 
 \section{Catálogo III}
 \textbf{NOSSO MÉTODO}
@@ -1233,7 +1293,7 @@ na amostra II, em 97.8\% dos casos houve indicação de algum grau de rotação,
 sistemas rotaciona. Ou seja, o método de HL é "agressivo" para detectar rotação mas produz uma alta 
 taxa de falsos positivos.
 
-{\small 
+{\scriptsize
 \begin{longtable}{ccccc}
 \caption{Resultado do métdo Hwang \& Lee para a amostra I do catálogo III.}\label{tab:rotationhwang}
 \\ \hline
@@ -1441,7 +1501,7 @@ taxa de falsos positivos.
 \end{longtable}
 }
 
-{\small
+{\scriptsize
 \begin{longtable}{ccccc}
 \caption{Resultado do métdo Hwang \& Lee para a amostra II do catálogo III.}\label{tab:norotationhwang}
 \hline
@@ -1689,154 +1749,135 @@ em aumento da massa corrigida. Uma vez que esta amostra corresponde a sistemas i
 É importante destacar que para o cálculo de correção da massa estamos considerando apenas a componente rotacional como contribuinte para o ajuste, não analisamos outras possíveis fontes, como desvios do próprio equilíbrio virial. Fazemos ainda a observação de que
 a correção não se aplica ao conjunto de dados da amostra II do catálogo III, uma vez que esta amostra foi definida sem rotação.
 
-{\small
-\begin{longtable}{ccccc}
+{\scriptsize
+\begin{longtable}{cccccc}
 \caption{Cálculo correção da massa para o catálogo selec20.}
 \label{tab:massselec20}
 \\ \hline
-\textbf{Cluster} & \textbf{Vrot ($km \, s^{-1}$)} & \textbf{$\delta \sigma$} & \textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)} \\ \hline
-2 & 1014.69 & -0.06 & 6.7 & 7.59 \\
-4 & 816.91 & 0.15 & 7.42 & 5.34 \\
-5 & 1284.33 & -0.19 & 14.98 & 21.07 \\
-7 & 1878.89 & -0.59 & 23.12 & 58.21 \\
-8 & 824.97 & 0.08 & 4.8 & 4.04 \\
-9 & 837.38 & 0.1 & 5.88 & 4.77 \\
-10 & 1232.28 & -0.08 & 17.91 & 20.93 \\
-11 & 1154.06 & -0.13 & 10.24 & 13.14 \\
-12 & 2728.77 & -0.99 & 53.6 & 212.33 \\
-%14 & NA & NA & 4.2 & NA \\
-%15 & NA & NA & 5.52 & NA \\
-16 & 781.13 & 0.12 & 4.19 & 3.26 \\
-17 & 2239.97 & -0.82 & 31.28 & 103.96 \\
-%18 & NA & NA & 23.08 & NA \\ \hline
+\textbf{Cluster} & \textbf{Anderson-Darling p-value} & \textbf{Vrot ($km \, s^{-1}$)} & \textbf{$\delta \sigma$} & \textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)} \\ \hline
+2 & {\color{red}0.0175} & 1014.69 & -0.06 & 6.7 & 7.59 \\
+4 & 0.5148 & 816.91 & 0.15 & 7.42 & 5.34 \\
+5 & {\color{red}0.0254} & 1284.33 & -0.19 & 14.98 & 21.07 \\
+7 & {\color{red}0.0005} & 1878.89 & -0.59 & 23.12 & 58.21 \\
+8 & {\color{red}0.0003} & 824.97 & 0.08 & 4.8 & 4.04 \\
+9 & {\color{red}0.0021} & 837.38 & 0.1 & 5.88 & 4.77 \\
+10 & {\color{red}0.0029} & 1232.28 & -0.08 & 17.91 & 20.93 \\
+11 & {\color{red}0.0001} & 1154.06 & -0.13 & 10.24 & 13.14 \\
+12 & {\color{red}0.0001} & 2728.77 & -0.99 & 53.6 & 212.33 \\
+16 & 0.2477 & 781.13 & 0.12 & 4.19 & 3.26 \\
+17 & {\color{red}< 0.0001} & 2239.97 & -0.82 & 31.28 & 103.96 \\ \hline
 \end{longtable}
 }
 
-{\small
-\begin{longtable}{ccccc}
+{\scriptsize
+\begin{longtable}{cccccc}
 \caption{Cálculo correção da massa para o catálogo NoSocs.}
 \label{tab:massnosocs}
 \\ \hline
-\textbf{Cluster} & \textbf{Vrot ($km \, s^{-1}$)} & \textbf{$\Delta \sigma$} &\textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)}\\ \hline
-%01189 & NA & NA & 2.79 & NA \\
-01238 & 797.69 & 0.09 & 3.84 & 3.15 \\
-01831 & 345.55 & 0.51 & 0.99 & 0.24 \\
-01836 & 448.87 & 0.42 & 1.84 & 0.62 \\
-02433 & 593.83 & 0.17 & 1.13 & 0.77 \\
-02440 & 302.64 & 0.58 & 1.21 & 0.21 \\
-%02447 & NA & NA & 1.14 & NA \\
-03176 & 428.81 & 0.41 & 1.2 & 0.42 \\
-%03691 & NA & NA & 1.17 & NA \\
-03907 & 547.83 & 0.30 & 1.86 & 0.92 \\
-%04048 & NA & NA & 0.93 & NA \\
-%04409 & NA & NA & 2.8 & NA \\
-04470 & 775.23 & 0.08 & 3.01 & 2.55 \\
-%04479 & NA & NA & 0.41 & NA \\
-%04672 & NA & NA & 0.62 & NA \\
-04681 & 1084.22 & -0.07 & 9.07 & 10.4 \\
-04703 & 1147.11 & -0.19 & 6.57 & 9.37 \\
-05359 & 656 & 0.2 & 2.54 & 1.64 \\
-05447 & 497.66 & 0.36 & 1.82 & 0.75 \\
-%06207 & NA & NA & 0.63 & NA \\
-06256 & 665.03 & 0.21 & 3.09 & 1.93 \\
-06286 & 673.53 & 0.2 & 3.08 & 1.95 \\
-06547 & 1104.74 & -0.16 & 6.36 & 8.49 \\
-%07217 & NA & NA & 0.33 & NA \\
-%07395 & NA & NA & 1.11 & NA \\
-07703 & 308.04 & 0.56 & 1.02 & 0.2 \\
-08022 & 650.79 & 0.18 & 2.19 & 1.47 \\
-08721 & 390.67 & 0.49 & 1.74 & 0.45 \\
-%09061 & NA & NA & 3.76 & NA \\
-%09148 & NA & NA & 3.06 & NA \\
-10006 & 932.21 & -0.02 & 5.02 & 5.24 \\
-10008 & 1524.44 & -0.59 & 6.81 & 17.32 \\
-10013 & 933.65 & -0.06 & 4.05 & 4.56 \\
-10015 & 1291.87 & -0.34 & 6.91 & 12.44 \\
-10016 & 666.71 & 0.24 & 3.83 & 2.23 \\
-10018 & 748.49 & 0.14 & 3.67 & 2.7 \\
-10020 & 1195.4 & -0.15 & 10.42 & 13.83 \\
-%10021 & NA & NA & 2.31 & NA \\
-10023 & 1738.54 & -0.60 & 14.45 & 36.86 \\
-10024 & 1873.25 & -0.69 & 16.18 & 46.23 \\
-%10026 & NA & NA & 5.8 & NA \\
-10027 & 824.85 & 0.1 & 5.11 & 4.1 \\
-10028 & 830.93 & 0.0 & 2.83 & 2.83 \\
-10029 & 505.62 & 0.35 & 2.04 & 0.87 \\
-10030 & 323.01 & 0.54 & 1.13 & 0.24 \\
-10031 & 1070.37 & -0.05 & 9.46 & 10.34 \\
-10035 & 807.11 & 0.1 & 4.12 & 3.36 \\
-10036 & 647.85 & 0.18 & 2.27 & 1.53 \\
-10037 & 1141.23 & -0.11 & 9.92 & 12.12 \\
-10040 & 635.65 & 0.24 & 3.08 & 1.76 \\
-10043 & 686.59 & 0.17 & 3.04 & 2.09 \\
-10044 & 1431.5 & -0.39 & 9.82 & 19.06 \\
-10045 & 450.57 & 0.33 & 0.77 & 0.35 \\
-10050 & 795.6 & 0.04 & 2.87 & 2.64 \\
-10051 & 857.33 & 0.07 & 5.64 & 4.88 \\
-10053 & 981.84 & -0.03 & 6.93 & 7.34 \\
-10054 & 1230.39 & -0.22 & 9.81 & 14.51 \\
-%10055 & NA & NA & 8.98 & NA \\
-10056 & 1457.95 & -0.34 & 12.99 & 23.49 \\
-%10059 & NA & NA & 3.83 & NA \\
-10060 & 803.62 & 0.10 & 4.31 & 3.52 \\
-10063 & 1236.38 & -0.35 & 5.26 & 9.56 \\
-10064 & 1122.04 & -0.12 & 8.36 & 10.57 \\ \hline
+\textbf{Cluster} & \textbf{Anderson-Darling p-value} & \textbf{Vrot ($km \, s^{-1}$)} & \textbf{$\Delta \sigma$} &\textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)}\\ \hline
+01238 & {\color{red}0.0042} & 797.69 & 0.09 & 3.84 & 3.15 \\
+01831 & 0.1275 & 345.55 & 0.51 & 0.99 & 0.24 \\
+01836 & 0.4749 & 448.87 & 0.42 & 1.84 & 0.62 \\
+02433 & 0.2596 & 593.83 & 0.17 & 1.13 & 0.77 \\
+02440 & 0.8344 & 302.64 & 0.58 & 1.21 & 0.21 \\
+03176 & 0.5617 & 428.81 & 0.41 & 1.2 & 0.42 \\
+03907 & 0.4525 & 547.83 & 0.30 & 1.86 & 0.92 \\
+04470 & 0.4322 & 775.23 & 0.08 & 3.01 & 2.55 \\
+04681 & 0.5913 & 1084.22 & -0.07 & 9.07 & 10.4 \\
+04703 & {\color{red}0.0016} & 1147.11 & -0.19 & 6.57 & 9.37 \\
+05359 & 0.9101 & 656.00 & 0.2 & 2.54 & 1.64 \\
+05447 & 0.2530 & 497.66 & 0.36 & 1.82 & 0.75 \\
+06256 & 0.2112 & 665.03 & 0.21 & 3.09 & 1.93 \\
+06286 & {\color{red}0.0431} & 673.53 & 0.2 & 3.08 & 1.95 \\
+06547 & {\color{red}0.0012} & 1104.74 & -0.16 & 6.36 & 8.49 \\
+07703 & 0.2791 & 308.04 & 0.56 & 1.02 & 0.2 \\
+08022 & 0.5450 & 650.79 & 0.18 & 2.19 & 1.47 \\
+08721 & 0.8282 & 390.67 & 0.49 & 1.74 & 0.45 \\
+10006 & 0.8143 & 932.21 & -0.02 & 5.02 & 5.24 \\
+10008 & {\color{red}0.0017} & 1524.44 & -0.59 & 6.81 & 17.32 \\
+10013 & 0.7772 & 933.65 & -0.06 & 4.05 & 4.56 \\
+10015 & {\color{red}0.0146} & 1291.87 & -0.34 & 6.91 & 12.44 \\
+10016 & {\color{red}0.0097} & 666.71 & 0.24 & 3.83 & 2.23 \\
+10018 & 0.5140 & 748.49 & 0.14 & 3.67 & 2.7 \\
+10020 & {\color{red}0.0039} & 1195.4 & -0.15 & 10.42 & 13.83 \\
+10023 & {\color{red}0.0007} & 1738.54 & -0.60 & 14.45 & 36.86 \\
+10024 & {\color{red}0.0008} & 1873.25 & -0.69 & 16.18 & 46.23 \\
+10027 & 0.3834 & 824.85 & 0.1 & 5.11 & 4.1 \\
+10028 & {\color{red}0.0025} & 830.93 & 0.0 & 2.83 & 2.83 \\
+10029 & {\color{red}0.0040} & 505.62 & 0.35 & 2.04 & 0.87 \\
+10030 & 0.6276 & 323.01 & 0.54 & 1.13 & 0.24 \\
+10031 & {\color{red}0.0086} & 1070.37 & -0.05 & 9.46 & 10.34 \\
+10035 & 0.4526 & 807.11 & 0.1 & 4.12 & 3.36 \\
+10036 & 0.4284 & 647.85 & 0.18 & 2.27 & 1.53 \\
+10037 & {\color{red}0.0122} & 1141.23 & -0.11 & 9.92 & 12.12 \\
+10040 & 0.1201 & 635.65 & 0.24 & 3.08 & 1.76 \\
+10043 & {\color{red}0.0102} & 686.59 & 0.17 & 3.04 & 2.09 \\
+10044 & {\color{red}< 0.0001} & 1431.5 & -0.39 & 9.82 & 19.06 \\
+10045 & {\color{red}0.0019} & 450.57 & 0.33 & 0.77 & 0.35 \\
+10050 & 0.0944 & 795.6 & 0.04 & 2.87 & 2.64 \\
+10051 & {\color{red}< 0.0001} & 857.33 & 0.07 & 5.64 & 4.88 \\
+10053 & {\color{red}< 0.0001} & 981.84 & -0.03 & 6.93 & 7.34 \\
+10054 & {\color{red}< 0.0001} & 1230.39 & -0.22 & 9.81 & 14.51 \\
+10056 & 0.0748 & 1457.95 & -0.34 & 12.99 & 23.49 \\
+10060 & 0.2142 & 803.62 & 0.10 & 4.31 & 3.52 \\
+10063 & {\color{red}0.0001} & 1236.38 & -0.35 & 5.26 & 9.56 \\
+10064 & 0.4375 & 1122.04 & -0.12 & 8.36 & 10.57 \\ \hline
 \end{longtable}
 }
 
-{\small
-\begin{longtable}{ccccc}
+{\scriptsize
+\begin{longtable}{cccccc}
 \caption{Cálculo correção da massa para o catálogo III - amostra I.}
 \label{tab:massamostrai}
 \\ \hline
-\textbf{Cluster} & \textbf{vrot ($km \, s^{-1}$)} & \textbf{$\Delta \sigma$} &\textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)}\\ \hline
-14 & 844.81 & -0.17 & 1.25 & 1.72 \\
-15 & 873.67 & -0.20 & 1.27 & 1.85 \\
-25 & 769.92 & -0.05 & 1.51 & 1.66 \\
-28 & 1046.24 & -0.37 & 1.59 & 3.00 \\
-40 & 1012.17 & -0.30 & 1.96 & 3.30 \\
-41 & 1186.46 & -0.51 & 2 & 4.54 \\
-47 & 883.96 & -0.10 & 2.21 & 2.70 \\
-53 & 1235.94 & -0.51 & 2.45 & 5.61 \\
-55 & 1430.23 & -0.73 & 2.54 & 7.64 \\
-62 & 1270.69 & -0.54 & 2.87 & 6.77 \\
-63 & 1079.88 & -0.29 & 2.92 & 4.82 \\
-69 & 1404.31 & -0.67 & 3.24 & 9.06 \\
-73 & 1229.3 & -0.46 & 3.47 & 7.38 \\
-74 & 943.69 & -0.10 & 3.53 & 4.26 \\
-79 & 1056.99 & -0.22 & 3.85 & 5.71 \\
-87 & 1051.61 & -0.17 & 4.42 & 6.10 \\
-90 & 1328.09 & -0.45 & 4.65 & 9.84 \\
-98 & 1058.56 & -0.16 & 5.34 & 7.22 \\
-100 & 1485.14 & -0.63 & 5.53 & 14.62 \\
-104 & 1514.65 & -0.64 & 5.92 & 15.87 \\
-105 & 1884.19 & -0.99 & 6.03 & 23.87 \\
-106 & 1581.38 & -0.71 & 6.13 & 17.86 \\
-111 & 1427.92 & -0.51 & 6.68 & 15.23 \\
-113 & 1564.59 & -0.61 & 6.92 & 18.00 \\
-116 & 1778.92 & -0.85 & 7.29 & 24.86 \\
-123 & 1702.39 & -0.75 & 8.22 & 25.08 \\
-128 & 1524.91 & -0.50 & 8.96 & 20.09 \\
-130 & 1775.9 & -0.77 & 9.28 & 29.06 \\
-135 & 2259.56 & -1.24 & 10.12 & 50.58 \\
-142 & 1819.58 & -0.76 & 11.42 & 35.51 \\
-144 & 1710.17 & -0.63 & 11.82 & 31.35 \\
-148 & 1162.24 & -0.11 & 12.66 & 15.47 \\
-156 & 2103.29 & -0.95 & 14.54 & 55.36 \\
-160 & 1929.59 & -0.78 & 15.58 & 49.14 \\
-162 & 2097.63 & -0.9 & 16.13 & 58.13 \\
-164 & 1981.77 & -0.79 & 16.69 & 53.52 \\
-167 & 2593.04 & -1.31 & 17.58 & 94.08 \\
-169 & 2285.37 & -1.03 & 18.2 & 74.64 \\
-171 & 2260.4 & -1.02 & 18.84 & 77.16 \\
-173 & 2537.07 & -1.25 & 19.5 & 98.52 \\
-176 & 2566.57 & -1.21 & 20.54 & 100.13 \\
-183 & 2210.85 & -0.85 & 23.17 & 79.57 \\
-184 & 1651.4 & -0.42 & 23.58 & 47.83 \\
-185 & 2572.07 & -1.20 & 23.99 & 116.21 \\
-187 & 2518.29 & -1.11 & 24.83 & 111.00 \\
-193 & 1995.25 & -0.66 & 27.54 & 76.25 \\
-194 & 2467.91 & -1.06 & 28.02 & 119.13 \\
-198 & 2235.46 & -0.80 & 30.03 & 97.20 \\ \hline
+\textbf{Cluster} & \textbf{Anderson-Darling p-value} &  \textbf{vrot ($km \, s^{-1}$)} & \textbf{$\Delta \sigma$} &\textbf{M200 ($10^{14}  M\odot$)} & \textbf{M_{cor} ($10^{14}  M\odot$)}\\ \hline
+14 & {\color{red}0.0293} & 844.81 & -0.17 & 1.25 & 1.72 \\
+15 & 0.0577 & 873.67 & -0.20 & 1.27 & 1.85 \\
+25 & 0.1552 & 769.92 & -0.05 & 1.51 & 1.66 \\
+28 & {\color{red}0.0325} & 1046.24 & -0.37 & 1.59 & 3.00 \\
+40 & 0.0700 & 1012.17 & -0.30 & 1.96 & 3.30 \\
+41 & {\color{red}0.0046} & 1186.46 & -0.51 & 2 & 4.54 \\
+47 & {\color{red}0.0315} & 883.96 & -0.10 & 2.21 & 2.70 \\
+53 & {\color{red}0.0094} & 1235.94 & -0.51 & 2.45 & 5.61 \\
+55 & {\color{red}0.0001} & 1430.23 & -0.73 & 2.54 & 7.64 \\
+62 & {\color{red}0.0022} & 1270.69 & -0.54 & 2.87 & 6.77 \\
+63 & 0.0801 & 1079.88 & -0.29 & 2.92 & 4.82 \\
+69 & {\color{red}0.0153} & 1404.31 & -0.67 & 3.24 & 9.06 \\
+73 & {\color{red}0.0061} & 1229.3 & -0.46 & 3.47 & 7.38 \\
+74 & 0.0592 & 943.69 & -0.10 & 3.53 & 4.26 \\
+79 & {\color{red}0.0080} & 1056.99 & -0.22 & 3.85 & 5.71 \\
+87 & {\color{red}0.0097} & 1051.61 & -0.17 & 4.42 & 6.10 \\
+90 & {\color{red}0.0179} & 1328.09 & -0.45 & 4.65 & 9.84 \\
+98 & {\color{red}> 0.0001} & 1058.56 & -0.16 & 5.34 & 7.22 \\
+100 & {\color{red}0.0001} & 1485.14 & -0.63 & 5.53 & 14.62 \\
+104 & {\color{red}0.0109} & 1514.65 & -0.64 & 5.92 & 15.87 \\
+105 & {\color{red}> 0.0001} & 1884.19 & -0.99 & 6.03 & 23.87 \\
+106 & {\color{red}0.0013} & 1581.38 & -0.71 & 6.13 & 17.86 \\
+111 & {\color{red}0.0005} & 1427.92 & -0.51 & 6.68 & 15.23 \\
+113 & {\color{red}0.0006} & 1564.59 & -0.61 & 6.92 & 18.00 \\
+116 & {\color{red}> 0.0001} & 1778.92 & -0.85 & 7.29 & 24.86 \\
+123 & {\color{red}> 0.0001} & 1702.39 & -0.75 & 8.22 & 25.08 \\
+128 & {\color{red}0.0034} & 1524.91 & -0.50 & 8.96 & 20.09 \\
+130 & {\color{red}0.0004} & 1775.9 & -0.77 & 9.28 & 29.06 \\
+135 & {\color{red}> 0.0001} & 2259.56 & -1.24 & 10.12 & 50.58 \\
+142 & {\color{red}0.0005} & 1819.58 & -0.76 & 11.42 & 35.51 \\
+144 & {\color{red}> 0.0001} & 1710.17 & -0.63 & 11.82 & 31.35 \\
+148 & {\color{red}> 0.0001} & 1162.24 & -0.11 & 12.66 & 15.47 \\
+156 & {\color{red}> 0.0001} & 2103.29 & -0.95 & 14.54 & 55.36 \\
+160 & {\color{red}0.0003} & 1929.59 & -0.78 & 15.58 & 49.14 \\
+162 & {\color{red}0.0001} & 2097.63 & -0.9 & 16.13 & 58.13 \\
+164 & {\color{red}> 0.0001} & 1981.77 & -0.79 & 16.69 & 53.52 \\
+167 & {\color{red}> 0.0001} & 2593.04 & -1.31 & 17.58 & 94.08 \\
+169 & {\color{red}> 0.0001} & 2285.37 & -1.03 & 18.2 & 74.64 \\
+171 & {\color{red}> 0.0001} & 2260.4 & -1.02 & 18.84 & 77.16 \\
+173 & {\color{red}> 0.0001} & 2537.07 & -1.25 & 19.5 & 98.52 \\
+176 & {\color{red}> 0.0001} & 2566.57 & -1.21 & 20.54 & 100.13 \\
+183 & {\color{red}0.0014} & 2210.85 & -0.85 & 23.17 & 79.57 \\
+184 & {\color{red}0.0001} & 1651.4 & -0.42 & 23.58 & 47.83 \\
+185 & {\color{red}> 0.0001} & 2572.07 & -1.20 & 23.99 & 116.21 \\
+187 & {\color{red}> 0.0001} & 2518.29 & -1.11 & 24.83 & 111.00 \\
+193 & {\color{red}> 0.0001} & 1995.25 & -0.66 & 27.54 & 76.25 \\
+194 & {\color{red}> 0.0001} & 2467.91 & -1.06 & 28.02 & 119.13 \\
+198 & {\color{red}> 0.0001} & 2235.46 & -0.80 & 30.03 & 97.20 \\ \hline
 \end{longtable}
 }
