@@ -1,0 +1,12 @@
+\babel@toc {brazilian}{}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Aglomerados de Gal\IeC {\'a}xias}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Distribui\IeC {\c c}\IeC {\~a}o de Velocidades ao longo do Aglomerado}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Rota\IeC {\c c}\IeC {\~a}o de Aglomerados}{11}{0}{1}
+\beamer@sectionintoc {2}{Objetivos}{16}{0}{2}
+\beamer@sectionintoc {3}{Metologia}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Amostra}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Algoritmo}{18}{0}{3}
+\beamer@sectionintoc {4}{Resultados Preliminares}{27}{0}{4}
+\beamer@sectionintoc {5}{Perspectivas}{50}{0}{5}
+\beamer@sectionintoc {6}{Refer\IeC {\^e}ncias}{52}{0}{6}
