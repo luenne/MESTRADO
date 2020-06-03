@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.3)  20 MAY 2020 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.3)  2 JUN 2020 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,15 +1138,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Label `fig1' multiply defined.
 
-
-LaTeX Warning: Label `fig6' multiply defined.
-
-
-LaTeX Warning: Label `fig6' multiply defined.
-
-
-LaTeX Warning: Label `fig6' multiply defined.
-
 )
 \openout1 = `template.aux'.
 
@@ -1279,7 +1270,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./template.nav)
-<logo.jpg, id=57, 685.8122pt x 135.50626pt>
+<logo.jpg, id=65, 685.8122pt x 135.50626pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 111.
@@ -1308,7 +1299,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 130.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<resultados/cluster.jpg, id=93, 1114.1625pt x 1055.945pt>
+<resultados/cluster.jpg, id=105, 1114.1625pt x 1055.945pt>
 File: resultados/cluster.jpg Graphic file (type jpg)
 <use resultados/cluster.jpg>
 Package pdftex.def Info: resultados/cluster.jpg  used on input line 130.
@@ -1331,7 +1322,7 @@ Package pdftex.def Info: logo.jpg  used on input line 140.
  [4
 
 ]
-<resultados/formation.jpg, id=110, 1228.59pt x 794.97pt>
+<resultados/formation.jpg, id=122, 1228.59pt x 794.97pt>
 File: resultados/formation.jpg Graphic file (type jpg)
 <use resultados/formation.jpg>
 Package pdftex.def Info: resultados/formation.jpg  used on input line 149.
@@ -1350,7 +1341,7 @@ Package pdftex.def Info: logo.jpg  used on input line 158.
  [6
 
 ]
-<10043dist.png, id=121, 653.44125pt x 646.415pt>
+<10043dist.png, id=133, 653.44125pt x 646.415pt>
 File: 10043dist.png Graphic file (type png)
 <use 10043dist.png>
 Package pdftex.def Info: 10043dist.png  used on input line 168.
@@ -1370,7 +1361,7 @@ Package pdftex.def Info: logo.jpg  used on input line 177.
  [8
 
 ]
-<10043.png, id=133, 662.475pt x 655.44875pt>
+<10043.png, id=145, 662.475pt x 655.44875pt>
 File: 10043.png Graphic file (type png)
 <use 10043.png>
 Package pdftex.def Info: 10043.png  used on input line 187.
@@ -1391,18 +1382,18 @@ Package pdftex.def Info: logo.jpg  used on input line 187.
 [9
 
  <./10043.png>]
-<resultados/virial.jpg, id=139, 795.7471pt x 533.0884pt>
-File: resultados/virial.jpg Graphic file (type jpg)
-<use resultados/virial.jpg>
-Package pdftex.def Info: resultados/virial.jpg  used on input line 202.
-(pdftex.def)             Requested size: 215.09743pt x 102.78455pt.
+<resultados/virial.png, id=151, 897.3525pt x 446.66875pt>
+File: resultados/virial.png Graphic file (type png)
+<use resultados/virial.png>
+Package pdftex.def Info: resultados/virial.png  used on input line 202.
+(pdftex.def)             Requested size: 215.09514pt x 102.78616pt.
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 202.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [10
 
- <./resultados/virial.jpg>]
+ <./resultados/virial.png>]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 219.
@@ -1448,238 +1439,156 @@ Package pdftex.def Info: logo.jpg  used on input line 297.
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 308.
+Package pdftex.def Info: logo.jpg  used on input line 307.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [17
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 319.
+Package pdftex.def Info: logo.jpg  used on input line 314.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [18
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 340.
+Package pdftex.def Info: logo.jpg  used on input line 321.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [19
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 351.
+Package pdftex.def Info: logo.jpg  used on input line 332.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [20
 
 ]
-<resultados/gaps.png, id=220, 160.4394pt x 161.403pt>
-File: resultados/gaps.png Graphic file (type png)
-<use resultados/gaps.png>
-Package pdftex.def Info: resultados/gaps.png  used on input line 359.
-(pdftex.def)             Requested size: 215.10274pt x 143.9142pt.
-
-Overfull \vbox (8.37584pt too high) detected at line 359
- []
-
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 359.
+Package pdftex.def Info: logo.jpg  used on input line 353.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[21
-
- <./resultados/gaps.png>]
-Overfull \vbox (2.07793pt too high) detected at line 377
- []
-
-File: logo.jpg Graphic file (type jpg)
-<use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 377.
-(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[22
+ [21
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 391.
+Package pdftex.def Info: logo.jpg  used on input line 364.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [23
+ [22
+
+]
+Overfull \vbox (2.07793pt too high) detected at line 382
+ []
+
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 382.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[23
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 399.
+Package pdftex.def Info: logo.jpg  used on input line 396.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [24
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 413.
+Package pdftex.def Info: logo.jpg  used on input line 403.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [25
 
 ]
-<resultados/fluxograma.png, id=252, 663.47874pt x 272.01625pt>
+<resultados/fluxograma.png, id=262, 938.50626pt x 475.7775pt>
 File: resultados/fluxograma.png Graphic file (type png)
 <use resultados/fluxograma.png>
-Package pdftex.def Info: resultados/fluxograma.png  used on input line 420.
-(pdftex.def)             Requested size: 265.3868pt x 108.80457pt.
+Package pdftex.def Info: resultados/fluxograma.png  used on input line 410.
+(pdftex.def)             Requested size: 281.55405pt x 142.73434pt.
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 420.
+Package pdftex.def Info: logo.jpg  used on input line 410.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
  [26
 
  <./resultados/fluxograma.png>]
-<resultados/dist1.jpeg, id=259, 619.31375pt x 584.1825pt>
-File: resultados/dist1.jpeg Graphic file (type jpg)
-<use resultados/dist1.jpeg>
-Package pdftex.def Info: resultados/dist1.jpeg  used on input line 431.
-(pdftex.def)             Requested size: 142.43916pt x 134.35915pt.
-<resultados/dist2.jpg, id=260, 481.8pt x 481.8pt>
-File: resultados/dist2.jpg Graphic file (type jpg)
-<use resultados/dist2.jpg>
-Package pdftex.def Info: resultados/dist2.jpg  used on input line 431.
-(pdftex.def)             Requested size: 144.5411pt x 144.5411pt.
-
-Overfull \vbox (19.00275pt too high) detected at line 431
- []
-
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 431.
+Package pdftex.def Info: logo.jpg  used on input line 427.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[27
+ [27
 
- <./resultados/dist1.jpeg> <./resultados/dist2.jpg>]
-<resultados/dist3.jpg, id=266, 481.8pt x 481.8pt>
-File: resultados/dist3.jpg Graphic file (type jpg)
-<use resultados/dist3.jpg>
-Package pdftex.def Info: resultados/dist3.jpg  used on input line 441.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist4.jpg, id=267, 481.8pt x 481.8pt>
-File: resultados/dist4.jpg Graphic file (type jpg)
-<use resultados/dist4.jpg>
-Package pdftex.def Info: resultados/dist4.jpg  used on input line 441.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist5.jpg, id=268, 481.8pt x 481.8pt>
-File: resultados/dist5.jpg Graphic file (type jpg)
-<use resultados/dist5.jpg>
-Package pdftex.def Info: resultados/dist5.jpg  used on input line 441.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 441--441
- [][][] 
- []
-
+]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 441.
+Package pdftex.def Info: logo.jpg  used on input line 443.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[28
+ [28
 
- <./resultados/dist3.jpg> <./resultados/dist4.jpg> <./resultados/dist5.jpg>]
-<resultados/dist6.jpg, id=274, 481.8pt x 481.8pt>
-File: resultados/dist6.jpg Graphic file (type jpg)
-<use resultados/dist6.jpg>
-Package pdftex.def Info: resultados/dist6.jpg  used on input line 451.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist7.jpg, id=275, 481.8pt x 481.8pt>
-File: resultados/dist7.jpg Graphic file (type jpg)
-<use resultados/dist7.jpg>
-Package pdftex.def Info: resultados/dist7.jpg  used on input line 451.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist8.jpg, id=276, 481.8pt x 481.8pt>
-File: resultados/dist8.jpg Graphic file (type jpg)
-<use resultados/dist8.jpg>
-Package pdftex.def Info: resultados/dist8.jpg  used on input line 451.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 451--451
- [][][] 
- []
-
+]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 451.
+Package pdftex.def Info: logo.jpg  used on input line 455.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[29
+ [29
 
- <./resultados/dist6.jpg> <./resultados/dist7.jpg> <./resultados/dist8.jpg>]
-<resultados/dist9.jpg, id=282, 481.8pt x 481.8pt>
-File: resultados/dist9.jpg Graphic file (type jpg)
-<use resultados/dist9.jpg>
-Package pdftex.def Info: resultados/dist9.jpg  used on input line 461.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist10.jpg, id=283, 481.8pt x 481.8pt>
-File: resultados/dist10.jpg Graphic file (type jpg)
-<use resultados/dist10.jpg>
-Package pdftex.def Info: resultados/dist10.jpg  used on input line 461.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist11.jpg, id=284, 481.8pt x 481.8pt>
-File: resultados/dist11.jpg Graphic file (type jpg)
-<use resultados/dist11.jpg>
-Package pdftex.def Info: resultados/dist11.jpg  used on input line 461.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+]
+<resultados/catalogo/selec20gap.jpg, id=285, 481.8pt x 481.8pt>
+File: resultados/catalogo/selec20gap.jpg Graphic file (type jpg)
+<use resultados/catalogo/selec20gap.jpg>
+Package pdftex.def Info: resultados/catalogo/selec20gap.jpg  used on input line
+ 464.
+(pdftex.def)             Requested size: 134.90308pt x 134.90308pt.
+<resultados/catalogo/dist00996.jpg, id=286, 481.8pt x 481.8pt>
+File: resultados/catalogo/dist00996.jpg Graphic file (type jpg)
+<use resultados/catalogo/dist00996.jpg>
+Package pdftex.def Info: resultados/catalogo/dist00996.jpg  used on input line 
+464.
+(pdftex.def)             Requested size: 134.90308pt x 134.90308pt.
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 461--461
- [][][] 
+Overfull \vbox (9.36472pt too high) detected at line 464
  []
 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 461.
+Package pdftex.def Info: logo.jpg  used on input line 464.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [30
 
- <./resultados/dist9.jpg> <./resultados/dist10.jpg> <./resultados/dist11.jpg>]
-<resultados/dist12.jpg, id=290, 481.8pt x 481.8pt>
-File: resultados/dist12.jpg Graphic file (type jpg)
-<use resultados/dist12.jpg>
-Package pdftex.def Info: resultados/dist12.jpg  used on input line 471.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist13.jpg, id=291, 481.8pt x 481.8pt>
-File: resultados/dist13.jpg Graphic file (type jpg)
-<use resultados/dist13.jpg>
-Package pdftex.def Info: resultados/dist13.jpg  used on input line 471.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist14.jpg, id=292, 481.8pt x 481.8pt>
-File: resultados/dist14.jpg Graphic file (type jpg)
-<use resultados/dist14.jpg>
-Package pdftex.def Info: resultados/dist14.jpg  used on input line 471.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+ <./resultados/catalogo/selec20gap.jpg> <./resultados/catalogo/dist00996.jpg>]
+<resultados/gaps.png, id=292, 160.4394pt x 161.403pt>
+File: resultados/gaps.png Graphic file (type png)
+<use resultados/gaps.png>
+Package pdftex.def Info: resultados/gaps.png  used on input line 472.
+(pdftex.def)             Requested size: 215.10274pt x 143.9142pt.
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 471--471
- [][][] 
+Overfull \vbox (8.37584pt too high) detected at line 472
  []
 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 471.
+Package pdftex.def Info: logo.jpg  used on input line 472.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [31
 
- <./resultados/dist12.jpg> <./resultados/dist13.jpg> <./resultados/dist14.jpg>]
-<resultados/dist15.jpg, id=299, 481.8pt x 481.8pt>
-File: resultados/dist15.jpg Graphic file (type jpg)
-<use resultados/dist15.jpg>
-Package pdftex.def Info: resultados/dist15.jpg  used on input line 481.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist16.jpg, id=300, 481.8pt x 481.8pt>
-File: resultados/dist16.jpg Graphic file (type jpg)
-<use resultados/dist16.jpg>
-Package pdftex.def Info: resultados/dist16.jpg  used on input line 481.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist17.jpg, id=301, 481.8pt x 481.8pt>
-File: resultados/dist17.jpg Graphic file (type jpg)
-<use resultados/dist17.jpg>
-Package pdftex.def Info: resultados/dist17.jpg  used on input line 481.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+ <./resultados/gaps.png>]
+<resultados/catalogo/selec20ellipse.jpg, id=300, 481.8pt x 481.8pt>
+File: resultados/catalogo/selec20ellipse.jpg Graphic file (type jpg)
+<use resultados/catalogo/selec20ellipse.jpg>
+Package pdftex.def Info: resultados/catalogo/selec20ellipse.jpg  used on input 
+line 481.
+(pdftex.def)             Requested size: 134.90308pt x 134.90308pt.
+<resultados/catalogo/eixo00996.jpg, id=301, 481.8pt x 481.8pt>
+File: resultados/catalogo/eixo00996.jpg Graphic file (type jpg)
+<use resultados/catalogo/eixo00996.jpg>
+Package pdftex.def Info: resultados/catalogo/eixo00996.jpg  used on input line 
+481.
+(pdftex.def)             Requested size: 134.90308pt x 134.90308pt.
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 481--481
- [][][] 
+Overfull \vbox (9.36472pt too high) detected at line 481
  []
 
 File: logo.jpg Graphic file (type jpg)
@@ -1688,446 +1597,511 @@ Package pdftex.def Info: logo.jpg  used on input line 481.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [32
 
- <./resultados/dist15.jpg> <./resultados/dist16.jpg> <./resultados/dist17.jpg>]
-<resultados/dist18.jpg, id=307, 481.8pt x 481.8pt>
-File: resultados/dist18.jpg Graphic file (type jpg)
-<use resultados/dist18.jpg>
-Package pdftex.def Info: resultados/dist18.jpg  used on input line 491.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist19.jpg, id=308, 481.8pt x 481.8pt>
-File: resultados/dist19.jpg Graphic file (type jpg)
-<use resultados/dist19.jpg>
-Package pdftex.def Info: resultados/dist19.jpg  used on input line 491.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/dist20.jpg, id=309, 481.8pt x 481.8pt>
-File: resultados/dist20.jpg Graphic file (type jpg)
-<use resultados/dist20.jpg>
-Package pdftex.def Info: resultados/dist20.jpg  used on input line 491.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 491--491
- [][][] 
- []
-
+ <./resultados/catalogo/selec20ellipse.jpg> <./resultados/catalogo/eixo00996.jp
+g>]
+! Undefined control sequence.
+\@sharp ->\multirow 
+                    {}{}{\textbf {Cluster}}
+l.512 \end{frame}
+                 
+? 
+! Undefined control sequence.
+\@sharp ->\multirow 
+                    {}{}{\textbf {Nº galáxias}}
+l.512 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 491.
+Package pdftex.def Info: logo.jpg  used on input line 512.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [33
 
- <./resultados/dist18.jpg> <./resultados/dist19.jpg> <./resultados/dist20.jpg>]
-<resultados/eixo1.jpg, id=315, 481.8pt x 481.8pt>
-File: resultados/eixo1.jpg Graphic file (type jpg)
-<use resultados/eixo1.jpg>
-Package pdftex.def Info: resultados/eixo1.jpg  used on input line 501.
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 524.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [34
+
+]
+<resultados/catalogo/rotacao.jpg, id=319, 481.8pt x 481.8pt>
+File: resultados/catalogo/rotacao.jpg Graphic file (type jpg)
+<use resultados/catalogo/rotacao.jpg>
+Package pdftex.def Info: resultados/catalogo/rotacao.jpg  used on input line 53
+6.
 (pdftex.def)             Requested size: 144.5411pt x 144.5411pt.
-<resultados/eixo2.jpg, id=316, 481.8pt x 481.8pt>
-File: resultados/eixo2.jpg Graphic file (type jpg)
-<use resultados/eixo2.jpg>
-Package pdftex.def Info: resultados/eixo2.jpg  used on input line 501.
-(pdftex.def)             Requested size: 144.5411pt x 144.5411pt.
-
-Overfull \vbox (19.00275pt too high) detected at line 501
- []
-
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 501.
+Package pdftex.def Info: logo.jpg  used on input line 536.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[34
+ [35
 
- <./resultados/eixo1.jpg> <./resultados/eixo2.jpg>]
-<resultados/eixo3.jpg, id=322, 481.8pt x 481.8pt>
-File: resultados/eixo3.jpg Graphic file (type jpg)
-<use resultados/eixo3.jpg>
-Package pdftex.def Info: resultados/eixo3.jpg  used on input line 511.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo4.jpg, id=323, 481.8pt x 481.8pt>
-File: resultados/eixo4.jpg Graphic file (type jpg)
-<use resultados/eixo4.jpg>
-Package pdftex.def Info: resultados/eixo4.jpg  used on input line 511.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo5.jpg, id=324, 481.8pt x 481.8pt>
-File: resultados/eixo5.jpg Graphic file (type jpg)
-<use resultados/eixo5.jpg>
-Package pdftex.def Info: resultados/eixo5.jpg  used on input line 511.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 511--511
- [][][] 
- []
-
+ <./resultados/catalogo/rotacao.jpg>]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 511.
+Package pdftex.def Info: logo.jpg  used on input line 557.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[35
+ [36
 
- <./resultados/eixo3.jpg> <./resultados/eixo4.jpg> <./resultados/eixo5.jpg>]
-<resultados/eixo6.jpg, id=330, 481.8pt x 481.8pt>
-File: resultados/eixo6.jpg Graphic file (type jpg)
-<use resultados/eixo6.jpg>
-Package pdftex.def Info: resultados/eixo6.jpg  used on input line 521.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo7.jpg, id=331, 481.8pt x 481.8pt>
-File: resultados/eixo7.jpg Graphic file (type jpg)
-<use resultados/eixo7.jpg>
-Package pdftex.def Info: resultados/eixo7.jpg  used on input line 521.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo8.jpg, id=332, 481.8pt x 481.8pt>
-File: resultados/eixo8.jpg Graphic file (type jpg)
-<use resultados/eixo8.jpg>
-Package pdftex.def Info: resultados/eixo8.jpg  used on input line 521.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 521--521
- [][][] 
- []
-
+]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 521.
+Package pdftex.def Info: logo.jpg  used on input line 576.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[36
+ [37
 
- <./resultados/eixo6.jpg> <./resultados/eixo7.jpg> <./resultados/eixo8.jpg>]
-<resultados/eixo9.jpg, id=338, 481.8pt x 481.8pt>
-File: resultados/eixo9.jpg Graphic file (type jpg)
-<use resultados/eixo9.jpg>
-Package pdftex.def Info: resultados/eixo9.jpg  used on input line 531.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo10.jpg, id=339, 481.8pt x 481.8pt>
-File: resultados/eixo10.jpg Graphic file (type jpg)
-<use resultados/eixo10.jpg>
-Package pdftex.def Info: resultados/eixo10.jpg  used on input line 531.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo11.jpg, id=340, 481.8pt x 481.8pt>
-File: resultados/eixo11.jpg Graphic file (type jpg)
-<use resultados/eixo11.jpg>
-Package pdftex.def Info: resultados/eixo11.jpg  used on input line 531.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 531--531
- [][][] 
- []
-
+]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 531.
+Package pdftex.def Info: logo.jpg  used on input line 591.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[37
+ [38
 
- <./resultados/eixo9.jpg> <./resultados/eixo10.jpg> <./resultados/eixo11.jpg>]
-<resultados/eixo12.jpg, id=347, 481.8pt x 481.8pt>
-File: resultados/eixo12.jpg Graphic file (type jpg)
-<use resultados/eixo12.jpg>
-Package pdftex.def Info: resultados/eixo12.jpg  used on input line 541.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo13.jpg, id=348, 481.8pt x 481.8pt>
-File: resultados/eixo13.jpg Graphic file (type jpg)
-<use resultados/eixo13.jpg>
-Package pdftex.def Info: resultados/eixo13.jpg  used on input line 541.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo14.jpg, id=349, 481.8pt x 481.8pt>
-File: resultados/eixo14.jpg Graphic file (type jpg)
-<use resultados/eixo14.jpg>
-Package pdftex.def Info: resultados/eixo14.jpg  used on input line 541.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 541--541
- [][][] 
- []
-
+]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 541.
+Package pdftex.def Info: logo.jpg  used on input line 602.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[38
+ [39
 
- <./resultados/eixo12.jpg> <./resultados/eixo13.jpg> <./resultados/eixo14.jpg>]
-<resultados/eixo15.jpg, id=356, 481.8pt x 481.8pt>
-File: resultados/eixo15.jpg Graphic file (type jpg)
-<use resultados/eixo15.jpg>
-Package pdftex.def Info: resultados/eixo15.jpg  used on input line 551.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo16.jpg, id=357, 481.8pt x 481.8pt>
-File: resultados/eixo16.jpg Graphic file (type jpg)
-<use resultados/eixo16.jpg>
-Package pdftex.def Info: resultados/eixo16.jpg  used on input line 551.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo17.jpg, id=358, 481.8pt x 481.8pt>
-File: resultados/eixo17.jpg Graphic file (type jpg)
-<use resultados/eixo17.jpg>
-Package pdftex.def Info: resultados/eixo17.jpg  used on input line 551.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+]
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 551--551
- [][][] 
- []
+! LaTeX Error: There's no line here to end.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.613 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 551.
-(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
-[39
-
- <./resultados/eixo15.jpg> <./resultados/eixo16.jpg> <./resultados/eixo17.jpg>]
-<resultados/eixo18.jpg, id=364, 481.8pt x 481.8pt>
-File: resultados/eixo18.jpg Graphic file (type jpg)
-<use resultados/eixo18.jpg>
-Package pdftex.def Info: resultados/eixo18.jpg  used on input line 561.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo19.jpg, id=365, 481.8pt x 481.8pt>
-File: resultados/eixo19.jpg Graphic file (type jpg)
-<use resultados/eixo19.jpg>
-Package pdftex.def Info: resultados/eixo19.jpg  used on input line 561.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/eixo20.jpg, id=366, 481.8pt x 481.8pt>
-File: resultados/eixo20.jpg Graphic file (type jpg)
-<use resultados/eixo20.jpg>
-Package pdftex.def Info: resultados/eixo20.jpg  used on input line 561.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 561--561
- [][][] 
- []
-
-File: logo.jpg Graphic file (type jpg)
-<use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 561.
+Package pdftex.def Info: logo.jpg  used on input line 613.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [40
 
- <./resultados/eixo18.jpg> <./resultados/eixo19.jpg> <./resultados/eixo20.jpg>]
+]
 
-Overfull \hbox (40.54767pt too wide) in alignment at lines 617--617
-[] [] []
- []
+! LaTeX Error: There's no line here to end.
 
-
-Overfull \vbox (6.2227pt too high) detected at line 617
- []
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.623 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 617.
+Package pdftex.def Info: logo.jpg  used on input line 623.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [41
 
 ]
-Overfull \hbox (40.54767pt too wide) in alignment at lines 673--673
-[] [] []
- []
 
+! LaTeX Error: There's no line here to end.
 
-Overfull \vbox (6.2227pt too high) detected at line 673
- []
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.635 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 673.
+Package pdftex.def Info: logo.jpg  used on input line 635.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [42
 
 ]
-Overfull \hbox (40.54767pt too wide) in alignment at lines 730--730
-[] [] []
- []
 
+! LaTeX Error: There's no line here to end.
 
-Overfull \vbox (6.2227pt too high) detected at line 730
- []
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 730.
+Package pdftex.def Info: logo.jpg  used on input line 672.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [43
 
 ]
-File: logo.jpg Graphic file (type jpg)
-<use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 742.
-(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [44
+<resultados/catalogo/selec20vrot.png, id=374, 1355.0625pt x 665.48625pt>
+File: resultados/catalogo/selec20vrot.png Graphic file (type png)
+<use resultados/catalogo/selec20vrot.png>
+Package pdftex.def Info: resultados/catalogo/selec20vrot.png  used on input lin
+e 683.
+(pdftex.def)             Requested size: 271.00769pt x 133.09488pt.
 
-]
-<resultados/perfil2.jpg, id=397, 481.8pt x 481.8pt>
-File: resultados/perfil2.jpg Graphic file (type jpg)
-<use resultados/perfil2.jpg>
-Package pdftex.def Info: resultados/perfil2.jpg  used on input line 756.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil4.jpg, id=398, 481.8pt x 481.8pt>
-File: resultados/perfil4.jpg Graphic file (type jpg)
-<use resultados/perfil4.jpg>
-Package pdftex.def Info: resultados/perfil4.jpg  used on input line 756.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil5.jpg, id=399, 481.8pt x 481.8pt>
-File: resultados/perfil5.jpg Graphic file (type jpg)
-<use resultados/perfil5.jpg>
-Package pdftex.def Info: resultados/perfil5.jpg  used on input line 756.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 756--756
- [][][] 
+Overfull \vbox (5.55652pt too high) detected at line 683
  []
 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 756.
+Package pdftex.def Info: logo.jpg  used on input line 683.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[44
+
+ <./resultados/catalogo/selec20vrot.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 693.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
 [45
 
- <./resultados/perfil2.jpg> <./resultados/perfil4.jpg> <./resultados/perfil5.jp
-g>]
-<resultados/perfil8.jpg, id=406, 481.8pt x 481.8pt>
-File: resultados/perfil8.jpg Graphic file (type jpg)
-<use resultados/perfil8.jpg>
-Package pdftex.def Info: resultados/perfil8.jpg  used on input line 769.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil9.jpg, id=407, 481.8pt x 481.8pt>
-File: resultados/perfil9.jpg Graphic file (type jpg)
-<use resultados/perfil9.jpg>
-Package pdftex.def Info: resultados/perfil9.jpg  used on input line 769.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil10.jpg, id=408, 481.8pt x 481.8pt>
-File: resultados/perfil10.jpg Graphic file (type jpg)
-<use resultados/perfil10.jpg>
-Package pdftex.def Info: resultados/perfil10.jpg  used on input line 769.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+]
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 769--769
- [][][] 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.703 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 703.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[46
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.716 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 716.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[47
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 725.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[48
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.734 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 734.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[49
+
+]
+<resultados/catalogo/nosocsivrot.png, id=407, 1349.04pt x 661.47125pt>
+File: resultados/catalogo/nosocsivrot.png Graphic file (type png)
+<use resultados/catalogo/nosocsivrot.png>
+Package pdftex.def Info: resultados/catalogo/nosocsivrot.png  used on input lin
+e 744.
+(pdftex.def)             Requested size: 269.80322pt x 132.2919pt.
+
+Overfull \vbox (4.75354pt too high) detected at line 744
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 \end{frame}
-                 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 769.
+Package pdftex.def Info: logo.jpg  used on input line 744.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [46
+[50
 
- <./resultados/perfil8.jpg> <./resultados/perfil9.jpg> <./resultados/perfil10.j
-pg>]
-<resultados/perfil11.jpg, id=414, 481.8pt x 481.8pt>
-File: resultados/perfil11.jpg Graphic file (type jpg)
-<use resultados/perfil11.jpg>
-Package pdftex.def Info: resultados/perfil11.jpg  used on input line 782.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil12.jpg, id=415, 481.8pt x 481.8pt>
-File: resultados/perfil12.jpg Graphic file (type jpg)
-<use resultados/perfil12.jpg>
-Package pdftex.def Info: resultados/perfil12.jpg  used on input line 782.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil14.jpg, id=416, 481.8pt x 481.8pt>
-File: resultados/perfil14.jpg Graphic file (type jpg)
-<use resultados/perfil14.jpg>
-Package pdftex.def Info: resultados/perfil14.jpg  used on input line 782.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+ <./resultados/catalogo/nosocsivrot.png>]
+<resultados/catalogo/nosocsiivrot.png, id=413, 1346.02875pt x 656.4525pt>
+File: resultados/catalogo/nosocsiivrot.png Graphic file (type png)
+<use resultados/catalogo/nosocsiivrot.png>
+Package pdftex.def Info: resultados/catalogo/nosocsiivrot.png  used on input li
+ne 754.
+(pdftex.def)             Requested size: 269.20097pt x 131.28816pt.
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 782--782
- [][][] 
+Overfull \vbox (3.7498pt too high) detected at line 754
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.782 \end{frame}
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 754.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[51
+
+ <./resultados/catalogo/nosocsiivrot.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 \end{frame}
                  
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 782.
+Package pdftex.def Info: logo.jpg  used on input line 765.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [47
+[52
 
- <./resultados/perfil11.jpg> <./resultados/perfil12.jpg> <./resultados/perfil14
-.jpg>]
-<resultados/perfil16.jpg, id=422, 481.8pt x 481.8pt>
-File: resultados/perfil16.jpg Graphic file (type jpg)
-<use resultados/perfil16.jpg>
-Package pdftex.def Info: resultados/perfil16.jpg  used on input line 795.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil17.jpg, id=423, 481.8pt x 481.8pt>
-File: resultados/perfil17.jpg Graphic file (type jpg)
-<use resultados/perfil17.jpg>
-Package pdftex.def Info: resultados/perfil17.jpg  used on input line 795.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
-<resultados/perfil18.jpg, id=424, 481.8pt x 481.8pt>
-File: resultados/perfil18.jpg Graphic file (type jpg)
-<use resultados/perfil18.jpg>
-Package pdftex.def Info: resultados/perfil18.jpg  used on input line 795.
-(pdftex.def)             Requested size: 110.81166pt x 110.81166pt.
+]
 
-Overfull \hbox (25.14511pt too wide) in paragraph at lines 795--795
- [][][] 
- []
+! LaTeX Error: There's no line here to end.
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.795 \end{frame}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.776 \end{frame}
                  
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 795.
+Package pdftex.def Info: logo.jpg  used on input line 776.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [48
+[53
 
- <./resultados/perfil16.jpg> <./resultados/perfil17.jpg> <./resultados/perfil18
-.jpg>]
-<resultados/rotacao.png, id=430, 161.1621pt x 161.1621pt>
-File: resultados/rotacao.png Graphic file (type png)
-<use resultados/rotacao.png>
-Package pdftex.def Info: resultados/rotacao.png  used on input line 809.
-(pdftex.def)             Requested size: 128.92984pt x 128.92984pt.
-File: logo.jpg Graphic file (type jpg)
-<use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 809.
-(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [49
+]
 
- <./resultados/rotacao.png>]
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.786 \end{frame}
+                 
+? 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 819.
+Package pdftex.def Info: logo.jpg  used on input line 786.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [50
+[54
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.799 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 799.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[55
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.812 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 812.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[56
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.822 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 822.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[57
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 831.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[58
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.840 \end{frame}
+                 
+? 
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 840.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+[59
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 839.
+Package pdftex.def Info: logo.jpg  used on input line 852.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [51
+ [60
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 863.
+Package pdftex.def Info: logo.jpg  used on input line 862.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [52
+ [61
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 878.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [62
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 888.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [63
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 895.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [64
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 917.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [65
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 887.
+Package pdftex.def Info: logo.jpg  used on input line 937.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
- [53
+ [66
 
 ]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 912.
+Package pdftex.def Info: logo.jpg  used on input line 957.
 (pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [67
 
-[54
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 977.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [68
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 997.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [69
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 1017.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [70
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 1037.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [71
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 1057.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [72
+
+]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 1071.
+(pdftex.def)             Requested size: 254.93564pt x 50.37222pt.
+ [73
 
 ]
 \tf@nav=\write6
@@ -2139,63 +2113,65 @@ Package pdftex.def Info: logo.jpg  used on input line 912.
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 914.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 914.
- (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 914.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 914.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1073.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1073.
+
+(./template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1073.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1073.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 4AA4B6243F50D4D84B7FC4CA6B1ADE7B;669.
+(rerunfilecheck)             Checksum: 266C6A05820373F95F35E809D5E6F05C;770.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22880 strings out of 494903
- 438065 string characters out of 6179962
- 510599 words of memory out of 5000000
- 25489 multiletter control sequences out of 15000+600000
- 25097 words of font info for 61 fonts, out of 8000000 for 9000
+ 22839 strings out of 494903
+ 435954 string characters out of 6179962
+ 510890 words of memory out of 5000000
+ 25422 multiletter control sequences out of 15000+600000
+ 25878 words of font info for 62 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  56i,15n,60p,938b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.60
-0pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi0900.
-600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx120
-0.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1
-000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+0pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0700.
+600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi090
+0.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
+200.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
 i1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cti1200.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm1200.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecti0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecti0800.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecrm0800.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0700.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx1440.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecbx1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/p
-k/ljfour/jknappen/ec/eccc1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on template.pdf (54 pages, 2249975 bytes).
+cti1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecti1200.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm1200.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecti0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecti0800.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm0800.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecrm0700.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecbx1440.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm0900.600pk> </home/luenne/.texlive2017/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecrm1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecbx1000.600pk> </home/luenne/.texlive2017/texmf-var/fonts
+/pk/ljfour/jknappen/ec/eccc1440.600pk></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb>
+Output written on template.pdf (73 pages, 2013634 bytes).
 PDF statistics:
- 1093 PDF objects out of 1200 (max. 8388607)
- 472 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1248 PDF objects out of 1440 (max. 8388607)
+ 607 compressed objects within 7 object streams
+ 216 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
